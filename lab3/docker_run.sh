@@ -21,7 +21,7 @@ if [[ $(uname) == 'Darwin' ]]; then
     $xhost + $ip >/dev/null
     $docker run --rm -p $viskit_port:$viskit_port -e VISKIT_PORT=$viskit_port \
         -e DISPLAY=$ip:0 \
-        -v "$DIR":/root/code/bootcamp_pg \
+-v "$DIR":/root/code/bootcamp_pg:Z \
         -ti dementrock/deeprlbootcamp \
           ${1-/bin/bash} "${@:2}"
     $xhost - $ip >/dev/null
@@ -30,7 +30,7 @@ elif [[ $(uname) == 'Linux' ]]; then
     $docker run --rm -p $viskit_port:$viskit_port -e VISKIT_PORT=$viskit_port \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        -v "$DIR":/root/code/bootcamp_pg \
+-v "$DIR":/root/code/bootcamp_pg:Z \
         -ti dementrock/deeprlbootcamp \
           ${1-/bin/bash} "${@:2}"
     $xhost -local:root >/dev/null
