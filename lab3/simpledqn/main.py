@@ -212,7 +212,7 @@ class DQN(object):
         expected = max_q * self._discount + l_rew
 
         predict = F.select_item(self._q.forward(l_obs), max_q_indice)
-        loss = F.sum(F.square(expected - predict))
+        loss = F.mean(F.square(expected - predict))
         return loss
 
     def compute_double_q_learning_loss(self, l_obs, l_act, l_rew, l_next_obs, l_done):
@@ -235,7 +235,7 @@ class DQN(object):
         max_q_indice = F.argmax(q_value, axis=1)
         expected = F.select_item(self._qt.forward(l_next_obs), max_q_indice) * l_done
         predict = F.select_item(self._q.forward(l_obs), max_q_indice)
-        loss = F.sum(F.square(expected - predict))
+        loss = F.mean(F.square(expected - predict))
         return loss
 
     def train_q(self, l_obs, l_act, l_rew, l_next_obs, l_done):
