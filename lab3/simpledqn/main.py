@@ -207,8 +207,9 @@ class DQN(object):
         # loss = C.Variable(np.array([0.]))  # TODO: replace this line
         "*** YOUR CODE HERE ***"
         q_value = self._qt.forward(l_next_obs)
-        max_q_indice = F.argmax(q_value, axis=1)
-        max_q = F.select_item(q_value, max_q_indice) * (1 - l_done)
+        #max_q_indice = F.argmax(q_value, axis=1)
+        max_q = F.max(q_value, axis=1) * (1 - l_done)
+        #max_q = F.select_item(q_value, max_q_indice) * (1 - l_done)
         expected = max_q * self._discount + l_rew
 
         predict = F.select_item(self._q.forward(l_obs), l_act)
