@@ -46,8 +46,9 @@ def point_get_grad_logp_action(theta, ob, action):
     :param action: A vector of size |A|
     :return: A matrix of size |A| * (|S|+1)
     """
-    grad = np.zeros_like(theta)
-    "*** YOUR CODE HERE ***"
+    # grad = np.zeros_like(theta)
+    ob_1 = include_bias(ob)
+    grad = np.outer(action - theta.dot(ob_1), ob_1)
     return grad
 
 
@@ -113,7 +114,9 @@ def cartpole_get_grad_logp_action(theta, ob, action):
     :return: A matrix of size |A| * (|S|+1)
     """
     grad = np.zeros_like(theta)
-    "*** YOUR CODE HERE ***"
+    log_soft = -softmax(compute_logits(theta, ob))
+    log_soft[action] = 1
+    grad = np.outer(log_soft, include_bias(ob))
     return grad
 
 
@@ -248,6 +251,8 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
                     R_t = 0.
                     pg_theta = np.zeros_like(theta)
                     "*** YOUR CODE HERE ***"
+                    R_t = discount * R_tplus1 + r_t
+                    pg_theta = get_grad_logp_action(theta, s_t, a_t) * (R_t - b_t)
                     return R_t, pg_theta
 
                 # Test the implementation, but only once
@@ -278,7 +283,7 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
             """
             baselines = np.zeros(len(all_returns))
             for t in range(len(all_returns)):
-                "*** YOUR CODE HERE ***"
+                baselines[t] = np.mean(all_returns[t])
             return baselines
 
         if use_baseline:
@@ -307,6 +312,10 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
                 d = len(theta.flatten())
                 F = np.zeros((d, d))
                 "*** YOUR CODE HERE ***"
+                for ob, action in zip(all_observations, all_actions)
+                    logp_grad = get_grad_logp_action(theta, ob, action)
+                    F += np.outer(logp_grad, logp_grad)
+                F /= len(all_observations)
                 return F
 
             def compute_natural_gradient(F, grad, reg=1e-4):
@@ -318,6 +327,9 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
                 """
                 natural_grad = np.zeros_like(grad)
                 "*** YOUR CODE HERE ***"
+                flatten_grad = grad.flatten()
+                natural_grad = np.linalg.inv(F + reg * np.eye(F.shape[0])).flatten_grad
+                natural_grad.reshape(grad.shape)
                 return natural_grad
 
             def compute_step_size(F, natural_grad, natural_step_size):
@@ -329,6 +341,7 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
                 """
                 step_size = 0.
                 "*** YOUR CODE HERE ***"
+                step_size = np.sqrt(2*natural_step_size/(natural_grad.dot(F).dot(natural_grad)))
                 return step_size
 
             test_once(compute_fisher_matrix)
