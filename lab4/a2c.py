@@ -83,7 +83,8 @@ def compute_returns_advantages(rewards, dones, values, next_values, discount):
     As = np.zeros_like(rewards)
     "*** YOUR CODE HERE ***"
     Rtplus1 = next_values.copy()
-    T = next_values.shape[0]
+    T = rewards.shape[0]
+    #print(T, Rs.shape, As.shape)
     for i in range(T - 1, -1, -1):
         Rs[i] = rewards[i] + (1 - dones[i]) * discount * Rtplus1
         As[i] = Rs[i] - values[i]
@@ -225,9 +226,10 @@ def a2c(env, env_maker, policy, vf, joint_model=None, k=20, n_envs=16, discount=
                 vf_loss = Variable(np.array(0.))
                 total_loss = Variable(np.array(0.))
                 "*** YOUR CODE HERE ***"
-                policy_loss = F.mean(logli * all_advs)
+                policy_loss = F.mean(-logli * all_advs - ent_coeff * ent)
                 vf_loss = F.mean((all_returns - all_values) ** 2)
-                total_loss = policy_loss - ent_coeff * F.mean(ent) + vf_loss_coeff * vf_loss
+                total_loss = policy_loss + vf_loss_coeff * vf_loss
+                #print(policy_loss, vf_loss, total_loss)
                 return policy_loss, vf_loss, total_loss
 
             test_once(compute_total_loss)

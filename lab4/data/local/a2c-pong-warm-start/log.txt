@@ -1,0 +1,124 @@
+[2018-12-22 14:18:07.885034 UTC] Starting env pool
+[2018-12-22 14:18:13.996625 UTC] Starting epoch 841
+-----------------------------------
+| Epoch                | 841      |
+| TotalNEpisodes       | 0        |
+| TotalNSamples        | 0        |
+| Entropy              | 1.4095   |
+| Perplexity           | 4.0939   |
+| AveragePolicyProb[0] | 0.14464  |
+| AveragePolicyProb[1] | 0.1246   |
+| AveragePolicyProb[2] | 0.33807  |
+| AveragePolicyProb[3] | 0.10692  |
+| AveragePolicyProb[4] | 0.28404  |
+| AveragePolicyProb[5] | 0.00172  |
+| |VfPred|             | 2.8654   |
+| |VfTarget|           | 2.8555   |
+| VfLoss               | 0.03889  |
+-----------------------------------
+[2018-12-22 14:18:52.778772 UTC] Saving snapshot
+[2018-12-22 14:18:52.779255 UTC] Starting epoch 842
+-----------------------------------
+| Epoch                | 842      |
+| AverageReturn        | -21      |
+| MinReturn            | -21      |
+| MaxReturn            | -21      |
+| StdReturn            | 0        |
+| AverageEpisodeLength | 3056     |
+| MinEpisodeLength     | 3056     |
+| MaxEpisodeLength     | 3056     |
+| StdEpisodeLength     | 0        |
+| TotalNEpisodes       | 16       |
+| TotalNSamples        | 48896    |
+| Entropy              | 1.4989   |
+| Perplexity           | 4.4768   |
+| AveragePolicyProb[0] | 0.13899  |
+| AveragePolicyProb[1] | 0.12816  |
+| AveragePolicyProb[2] | 0.21044  |
+| AveragePolicyProb[3] | 0.30147  |
+| AveragePolicyProb[4] | 0.1805   |
+| AveragePolicyProb[5] | 0.040436 |
+| |VfPred|             | 2.1052   |
+| |VfTarget|           | 2.0277   |
+| VfLoss               | 0.24983  |
+-----------------------------------
+[2018-12-22 14:19:30.884909 UTC] Saving snapshot
+[2018-12-22 14:19:30.885386 UTC] Starting epoch 843
+-----------------------------------
+| Epoch                | 843      |
+| AverageReturn        | -21      |
+| MinReturn            | -21      |
+| MaxReturn            | -21      |
+| StdReturn            | 0        |
+| AverageEpisodeLength | 3056     |
+| MinEpisodeLength     | 3056     |
+| MaxEpisodeLength     | 3056     |
+| StdEpisodeLength     | 0        |
+| TotalNEpisodes       | 16       |
+| TotalNSamples        | 48896    |
+| Entropy              | 1.5464   |
+| Perplexity           | 4.6945   |
+| AveragePolicyProb[0] | 0.1431   |
+| AveragePolicyProb[1] | 0.13981  |
+| AveragePolicyProb[2] | 0.14978  |
+| AveragePolicyProb[3] | 0.253    |
+| AveragePolicyProb[4] | 0.16337  |
+| AveragePolicyProb[5] | 0.15094  |
+| |VfPred|             | 0.57419  |
+| |VfTarget|           | 0.61792  |
+| VfLoss               | 0.093468 |
+-----------------------------------
+[2018-12-22 14:20:08.341908 UTC] Saving snapshot
+[2018-12-22 14:20:08.342367 UTC] Starting epoch 844
+-----------------------------------
+| Epoch                | 844      |
+| AverageReturn        | -20.588  |
+| MinReturn            | -21      |
+| MaxReturn            | -14      |
+| StdReturn            | 1.6471   |
+| AverageEpisodeLength | 3278.1   |
+| MinEpisodeLength     | 3056     |
+| MaxEpisodeLength     | 6831     |
+| StdEpisodeLength     | 888.24   |
+| TotalNEpisodes       | 17       |
+| TotalNSamples        | 55727    |
+| Entropy              | 1.5632   |
+| Perplexity           | 4.7739   |
+| AveragePolicyProb[0] | 0.17601  |
+| AveragePolicyProb[1] | 0.18966  |
+| AveragePolicyProb[2] | 0.12256  |
+| AveragePolicyProb[3] | 0.19679  |
+| AveragePolicyProb[4] | 0.13473  |
+| AveragePolicyProb[5] | 0.18025  |
+| |VfPred|             | 0.845    |
+| |VfTarget|           | 0.87012  |
+| VfLoss               | 0.053274 |
+-----------------------------------
+[2018-12-22 14:20:46.143740 UTC] Saving snapshot
+[2018-12-22 14:20:46.144203 UTC] Starting epoch 845
+-------------------------------------
+| Epoch                | 845        |
+| AverageReturn        | -10.192    |
+| MinReturn            | -21        |
+| MaxReturn            | 13         |
+| StdReturn            | 14.39      |
+| AverageEpisodeLength | 5194.1     |
+| MinEpisodeLength     | 3056       |
+| MaxEpisodeLength     | 9536       |
+| StdEpisodeLength     | 2739.4     |
+| TotalNEpisodes       | 26         |
+| TotalNSamples        | 1.3505e+05 |
+| Entropy              | 1.5474     |
+| Perplexity           | 4.6991     |
+| AveragePolicyProb[0] | 0.16811    |
+| AveragePolicyProb[1] | 0.18177    |
+| AveragePolicyProb[2] | 0.11835    |
+| AveragePolicyProb[3] | 0.20895    |
+| AveragePolicyProb[4] | 0.12214    |
+| AveragePolicyProb[5] | 0.20068    |
+| |VfPred|             | 0.92745    |
+| |VfTarget|           | 0.93467    |
+| VfLoss               | 0.030358   |
+-------------------------------------
+[2018-12-22 14:21:25.652811 UTC] Saving snapshot
+[2018-12-22 14:21:25.653298 UTC] Starting epoch 846
