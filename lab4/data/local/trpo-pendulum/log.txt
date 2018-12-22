@@ -1,0 +1,3201 @@
+[2018-12-22 09:53:47.307655 UTC] Starting env pool
+[2018-12-22 09:53:47.340712 UTC] Starting iteration 0
+[2018-12-22 09:53:47.341178 UTC] Start collecting samples
+[2018-12-22 09:53:48.867698 UTC] Computing input variables for policy optimization
+[2018-12-22 09:53:48.964743 UTC] Performing policy update
+[2018-12-22 09:53:48.965623 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:53:49.041911 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:53:49.836367 UTC] Performing line search
+[2018-12-22 09:53:49.888878 UTC] Updating baseline
+[2018-12-22 09:53:50.958981 UTC] Computing logging information
+-------------------------------------
+| Iteration            | 0          |
+| ExpectedImprovement  | 0.0060116  |
+| ActualImprovement    | 0.0048256  |
+| ImprovementRatio     | 0.80272    |
+| MeanKL               | 0.0084087  |
+| Entropy              | 1.4189     |
+| Perplexity           | 4.1327     |
+| AveragePolicyStd     | 1          |
+| AveragePolicyStd[0]  | 1          |
+| AverageReturn        | -1125.4    |
+| MinReturn            | -1816      |
+| MaxReturn            | -843.09    |
+| StdReturn            | 189.13     |
+| AverageEpisodeLength | 200        |
+| MinEpisodeLength     | 200        |
+| MaxEpisodeLength     | 200        |
+| StdEpisodeLength     | 0          |
+| TotalNEpisodes       | 48         |
+| TotalNSamples        | 9600       |
+| ExplainedVariance    | -0.0010832 |
+-------------------------------------
+[2018-12-22 09:53:51.028575 UTC] Saving snapshot
+[2018-12-22 09:53:51.036451 UTC] Starting iteration 1
+[2018-12-22 09:53:51.036646 UTC] Start collecting samples
+[2018-12-22 09:53:52.559192 UTC] Computing input variables for policy optimization
+[2018-12-22 09:53:52.647717 UTC] Performing policy update
+[2018-12-22 09:53:52.648544 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:53:52.716908 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:53:53.512801 UTC] Performing line search
+[2018-12-22 09:53:53.564351 UTC] Updating baseline
+[2018-12-22 09:53:54.439129 UTC] Computing logging information
+------------------------------------
+| Iteration            | 1         |
+| ExpectedImprovement  | 0.006753  |
+| ActualImprovement    | 0.0076754 |
+| ImprovementRatio     | 1.1366    |
+| MeanKL               | 0.0088654 |
+| Entropy              | 1.4202    |
+| Perplexity           | 4.1379    |
+| AveragePolicyStd     | 1.0013    |
+| AveragePolicyStd[0]  | 1.0013    |
+| AverageReturn        | -1158.8   |
+| MinReturn            | -1816     |
+| MaxReturn            | -843.09   |
+| StdReturn            | 187.01    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 96        |
+| TotalNSamples        | 19200     |
+| ExplainedVariance    | 0.099683  |
+------------------------------------
+[2018-12-22 09:53:54.509590 UTC] Saving snapshot
+[2018-12-22 09:53:54.517113 UTC] Starting iteration 2
+[2018-12-22 09:53:54.517284 UTC] Start collecting samples
+[2018-12-22 09:53:56.042683 UTC] Computing input variables for policy optimization
+[2018-12-22 09:53:56.132577 UTC] Performing policy update
+[2018-12-22 09:53:56.133442 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:53:56.201298 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:53:56.998001 UTC] Performing line search
+[2018-12-22 09:53:57.101167 UTC] Updating baseline
+[2018-12-22 09:53:58.269703 UTC] Computing logging information
+------------------------------------
+| Iteration            | 2         |
+| ExpectedImprovement  | 0.0039948 |
+| ActualImprovement    | 0.0041291 |
+| ImprovementRatio     | 1.0336    |
+| MeanKL               | 0.0065039 |
+| Entropy              | 1.4343    |
+| Perplexity           | 4.1966    |
+| AveragePolicyStd     | 1.0154    |
+| AveragePolicyStd[0]  | 1.0154    |
+| AverageReturn        | -1167     |
+| MinReturn            | -1816     |
+| MaxReturn            | -807.41   |
+| StdReturn            | 174.73    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 144       |
+| TotalNSamples        | 28800     |
+| ExplainedVariance    | 0.17734   |
+------------------------------------
+[2018-12-22 09:53:58.340866 UTC] Saving snapshot
+[2018-12-22 09:53:58.348355 UTC] Starting iteration 3
+[2018-12-22 09:53:58.348541 UTC] Start collecting samples
+[2018-12-22 09:53:59.891805 UTC] Computing input variables for policy optimization
+[2018-12-22 09:53:59.982192 UTC] Performing policy update
+[2018-12-22 09:53:59.983017 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:00.051323 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:00.851138 UTC] Performing line search
+[2018-12-22 09:54:00.904418 UTC] Updating baseline
+[2018-12-22 09:54:01.852599 UTC] Computing logging information
+------------------------------------
+| Iteration            | 3         |
+| ExpectedImprovement  | 0.0046511 |
+| ActualImprovement    | 0.0050837 |
+| ImprovementRatio     | 1.093     |
+| MeanKL               | 0.0098574 |
+| Entropy              | 1.447     |
+| Perplexity           | 4.2502    |
+| AveragePolicyStd     | 1.0284    |
+| AveragePolicyStd[0]  | 1.0284    |
+| AverageReturn        | -1133.9   |
+| MinReturn            | -1594     |
+| MaxReturn            | -807.41   |
+| StdReturn            | 153.97    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 192       |
+| TotalNSamples        | 38400     |
+| ExplainedVariance    | 0.28753   |
+------------------------------------
+[2018-12-22 09:54:01.925391 UTC] Saving snapshot
+[2018-12-22 09:54:01.932887 UTC] Starting iteration 4
+[2018-12-22 09:54:01.933086 UTC] Start collecting samples
+[2018-12-22 09:54:03.439656 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:03.531254 UTC] Performing policy update
+[2018-12-22 09:54:03.532055 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:03.599645 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:04.399600 UTC] Performing line search
+[2018-12-22 09:54:04.503411 UTC] Updating baseline
+[2018-12-22 09:54:05.390204 UTC] Computing logging information
+------------------------------------
+| Iteration            | 4         |
+| ExpectedImprovement  | 0.0039459 |
+| ActualImprovement    | 0.0034041 |
+| ImprovementRatio     | 0.86269   |
+| MeanKL               | 0.0070495 |
+| Entropy              | 1.4429    |
+| Perplexity           | 4.2329    |
+| AveragePolicyStd     | 1.0242    |
+| AveragePolicyStd[0]  | 1.0242    |
+| AverageReturn        | -1102.3   |
+| MinReturn            | -1574.6   |
+| MaxReturn            | -827.09   |
+| StdReturn            | 135.04    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 240       |
+| TotalNSamples        | 48000     |
+| ExplainedVariance    | 0.30058   |
+------------------------------------
+[2018-12-22 09:54:05.464893 UTC] Saving snapshot
+[2018-12-22 09:54:05.472141 UTC] Starting iteration 5
+[2018-12-22 09:54:05.472341 UTC] Start collecting samples
+[2018-12-22 09:54:07.024500 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:07.121413 UTC] Performing policy update
+[2018-12-22 09:54:07.122183 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:07.189037 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:07.985845 UTC] Performing line search
+[2018-12-22 09:54:08.090591 UTC] Updating baseline
+[2018-12-22 09:54:08.995846 UTC] Computing logging information
+------------------------------------
+| Iteration            | 5         |
+| ExpectedImprovement  | 0.0047128 |
+| ActualImprovement    | 0.0043786 |
+| ImprovementRatio     | 0.92909   |
+| MeanKL               | 0.0068912 |
+| Entropy              | 1.4588    |
+| Perplexity           | 4.3009    |
+| AveragePolicyStd     | 1.0407    |
+| AveragePolicyStd[0]  | 1.0407    |
+| AverageReturn        | -1070.9   |
+| MinReturn            | -1529.9   |
+| MaxReturn            | -715.93   |
+| StdReturn            | 140.35    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 288       |
+| TotalNSamples        | 57600     |
+| ExplainedVariance    | 0.36487   |
+------------------------------------
+[2018-12-22 09:54:09.070832 UTC] Saving snapshot
+[2018-12-22 09:54:09.078065 UTC] Starting iteration 6
+[2018-12-22 09:54:09.078249 UTC] Start collecting samples
+[2018-12-22 09:54:10.636182 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:10.730088 UTC] Performing policy update
+[2018-12-22 09:54:10.730994 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:10.803689 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:11.606793 UTC] Performing line search
+[2018-12-22 09:54:11.659647 UTC] Updating baseline
+[2018-12-22 09:54:12.562696 UTC] Computing logging information
+------------------------------------
+| Iteration            | 6         |
+| ExpectedImprovement  | 0.0074829 |
+| ActualImprovement    | 0.0072756 |
+| ImprovementRatio     | 0.9723    |
+| MeanKL               | 0.0090044 |
+| Entropy              | 1.4366    |
+| Perplexity           | 4.2063    |
+| AveragePolicyStd     | 1.0178    |
+| AveragePolicyStd[0]  | 1.0178    |
+| AverageReturn        | -1072.8   |
+| MinReturn            | -1529.9   |
+| MaxReturn            | -715.93   |
+| StdReturn            | 156.8     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 336       |
+| TotalNSamples        | 67200     |
+| ExplainedVariance    | 0.44285   |
+------------------------------------
+[2018-12-22 09:54:12.636845 UTC] Saving snapshot
+[2018-12-22 09:54:12.644073 UTC] Starting iteration 7
+[2018-12-22 09:54:12.644271 UTC] Start collecting samples
+[2018-12-22 09:54:14.201114 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:14.293502 UTC] Performing policy update
+[2018-12-22 09:54:14.294255 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:14.361140 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:15.149852 UTC] Performing line search
+[2018-12-22 09:54:15.255319 UTC] Updating baseline
+[2018-12-22 09:54:16.144903 UTC] Computing logging information
+------------------------------------
+| Iteration            | 7         |
+| ExpectedImprovement  | 0.006424  |
+| ActualImprovement    | 0.0068847 |
+| ImprovementRatio     | 1.0717    |
+| MeanKL               | 0.0090236 |
+| Entropy              | 1.4521    |
+| Perplexity           | 4.2721    |
+| AveragePolicyStd     | 1.0337    |
+| AveragePolicyStd[0]  | 1.0337    |
+| AverageReturn        | -1061.4   |
+| MinReturn            | -1437.4   |
+| MaxReturn            | -801.27   |
+| StdReturn            | 128.9     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 400       |
+| TotalNSamples        | 80000     |
+| ExplainedVariance    | 0.60338   |
+------------------------------------
+[2018-12-22 09:54:16.218124 UTC] Saving snapshot
+[2018-12-22 09:54:16.223867 UTC] Starting iteration 8
+[2018-12-22 09:54:16.224058 UTC] Start collecting samples
+[2018-12-22 09:54:17.715841 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:17.807445 UTC] Performing policy update
+[2018-12-22 09:54:17.808298 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:17.875754 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:18.672906 UTC] Performing line search
+[2018-12-22 09:54:18.775386 UTC] Updating baseline
+[2018-12-22 09:54:19.737364 UTC] Computing logging information
+------------------------------------
+| Iteration            | 8         |
+| ExpectedImprovement  | 0.0054487 |
+| ActualImprovement    | 0.0053859 |
+| ImprovementRatio     | 0.98848   |
+| MeanKL               | 0.0066324 |
+| Entropy              | 1.4367    |
+| Perplexity           | 4.2067    |
+| AveragePolicyStd     | 1.0179    |
+| AveragePolicyStd[0]  | 1.0179    |
+| AverageReturn        | -1032.3   |
+| MinReturn            | -1370.5   |
+| MaxReturn            | -801.27   |
+| StdReturn            | 111.42    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 448       |
+| TotalNSamples        | 89600     |
+| ExplainedVariance    | 0.78628   |
+------------------------------------
+[2018-12-22 09:54:19.814561 UTC] Saving snapshot
+[2018-12-22 09:54:19.821689 UTC] Starting iteration 9
+[2018-12-22 09:54:19.821952 UTC] Start collecting samples
+[2018-12-22 09:54:21.440547 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:21.539732 UTC] Performing policy update
+[2018-12-22 09:54:21.540463 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:21.610916 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:22.455725 UTC] Performing line search
+[2018-12-22 09:54:22.563235 UTC] Updating baseline
+[2018-12-22 09:54:23.584067 UTC] Computing logging information
+------------------------------------
+| Iteration            | 9         |
+| ExpectedImprovement  | 0.0062287 |
+| ActualImprovement    | 0.0067844 |
+| ImprovementRatio     | 1.0892    |
+| MeanKL               | 0.0073507 |
+| Entropy              | 1.4458    |
+| Perplexity           | 4.2451    |
+| AveragePolicyStd     | 1.0272    |
+| AveragePolicyStd[0]  | 1.0272    |
+| AverageReturn        | -995.94   |
+| MinReturn            | -1330.8   |
+| MaxReturn            | -729.54   |
+| StdReturn            | 122.49    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 496       |
+| TotalNSamples        | 99200     |
+| ExplainedVariance    | 0.8189    |
+------------------------------------
+[2018-12-22 09:54:23.667435 UTC] Saving snapshot
+[2018-12-22 09:54:23.675292 UTC] Starting iteration 10
+[2018-12-22 09:54:23.675525 UTC] Start collecting samples
+[2018-12-22 09:54:25.409808 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:25.511228 UTC] Performing policy update
+[2018-12-22 09:54:25.512142 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:25.583507 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:26.430004 UTC] Performing line search
+[2018-12-22 09:54:26.537849 UTC] Updating baseline
+[2018-12-22 09:54:27.485210 UTC] Computing logging information
+------------------------------------
+| Iteration            | 10        |
+| ExpectedImprovement  | 0.0072984 |
+| ActualImprovement    | 0.0073755 |
+| ImprovementRatio     | 1.0106    |
+| MeanKL               | 0.0070295 |
+| Entropy              | 1.4641    |
+| Perplexity           | 4.3235    |
+| AveragePolicyStd     | 1.0462    |
+| AveragePolicyStd[0]  | 1.0462    |
+| AverageReturn        | -936.71   |
+| MinReturn            | -1324.1   |
+| MaxReturn            | -656.28   |
+| StdReturn            | 138.62    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 544       |
+| TotalNSamples        | 1.088e+05 |
+| ExplainedVariance    | 0.75322   |
+------------------------------------
+[2018-12-22 09:54:27.567561 UTC] Saving snapshot
+[2018-12-22 09:54:27.575458 UTC] Starting iteration 11
+[2018-12-22 09:54:27.575703 UTC] Start collecting samples
+[2018-12-22 09:54:29.279569 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:29.381685 UTC] Performing policy update
+[2018-12-22 09:54:29.382458 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:29.452887 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:30.296063 UTC] Performing line search
+[2018-12-22 09:54:30.403834 UTC] Updating baseline
+[2018-12-22 09:54:31.332305 UTC] Computing logging information
+------------------------------------
+| Iteration            | 11        |
+| ExpectedImprovement  | 0.0057889 |
+| ActualImprovement    | 0.0058316 |
+| ImprovementRatio     | 1.0074    |
+| MeanKL               | 0.0065958 |
+| Entropy              | 1.4549    |
+| Perplexity           | 4.2839    |
+| AveragePolicyStd     | 1.0366    |
+| AveragePolicyStd[0]  | 1.0366    |
+| AverageReturn        | -896.34   |
+| MinReturn            | -1324.1   |
+| MaxReturn            | -628.19   |
+| StdReturn            | 135.73    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 592       |
+| TotalNSamples        | 1.184e+05 |
+| ExplainedVariance    | 0.69655   |
+------------------------------------
+[2018-12-22 09:54:31.415265 UTC] Saving snapshot
+[2018-12-22 09:54:31.423488 UTC] Starting iteration 12
+[2018-12-22 09:54:31.423697 UTC] Start collecting samples
+[2018-12-22 09:54:32.907737 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:33.002189 UTC] Performing policy update
+[2018-12-22 09:54:33.003154 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:33.070420 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:33.871739 UTC] Performing line search
+[2018-12-22 09:54:33.981884 UTC] Updating baseline
+[2018-12-22 09:54:34.881282 UTC] Computing logging information
+------------------------------------
+| Iteration            | 12        |
+| ExpectedImprovement  | 0.0071429 |
+| ActualImprovement    | 0.0072928 |
+| ImprovementRatio     | 1.021     |
+| MeanKL               | 0.0077297 |
+| Entropy              | 1.4582    |
+| Perplexity           | 4.2983    |
+| AveragePolicyStd     | 1.0401    |
+| AveragePolicyStd[0]  | 1.0401    |
+| AverageReturn        | -887.78   |
+| MinReturn            | -1169.9   |
+| MaxReturn            | -628.19   |
+| StdReturn            | 128.07    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 640       |
+| TotalNSamples        | 1.28e+05  |
+| ExplainedVariance    | 0.68415   |
+------------------------------------
+[2018-12-22 09:54:34.961524 UTC] Saving snapshot
+[2018-12-22 09:54:34.969167 UTC] Starting iteration 13
+[2018-12-22 09:54:34.969372 UTC] Start collecting samples
+[2018-12-22 09:54:36.466457 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:36.558125 UTC] Performing policy update
+[2018-12-22 09:54:36.558860 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:36.625705 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:37.406416 UTC] Performing line search
+[2018-12-22 09:54:37.512057 UTC] Updating baseline
+[2018-12-22 09:54:38.413411 UTC] Computing logging information
+------------------------------------
+| Iteration            | 13        |
+| ExpectedImprovement  | 0.0062442 |
+| ActualImprovement    | 0.0063337 |
+| ImprovementRatio     | 1.0143    |
+| MeanKL               | 0.0070984 |
+| Entropy              | 1.4498    |
+| Perplexity           | 4.2621    |
+| AveragePolicyStd     | 1.0313    |
+| AveragePolicyStd[0]  | 1.0313    |
+| AverageReturn        | -881.77   |
+| MinReturn            | -1169.9   |
+| MaxReturn            | -501.39   |
+| StdReturn            | 140.4     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 688       |
+| TotalNSamples        | 1.376e+05 |
+| ExplainedVariance    | 0.64708   |
+------------------------------------
+[2018-12-22 09:54:38.493823 UTC] Saving snapshot
+[2018-12-22 09:54:38.501337 UTC] Starting iteration 14
+[2018-12-22 09:54:38.501521 UTC] Start collecting samples
+[2018-12-22 09:54:40.016536 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:40.109237 UTC] Performing policy update
+[2018-12-22 09:54:40.110156 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:40.177286 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:40.969851 UTC] Performing line search
+[2018-12-22 09:54:41.073463 UTC] Updating baseline
+[2018-12-22 09:54:41.967604 UTC] Computing logging information
+------------------------------------
+| Iteration            | 14        |
+| ExpectedImprovement  | 0.0074223 |
+| ActualImprovement    | 0.0075914 |
+| ImprovementRatio     | 1.0228    |
+| MeanKL               | 0.0072713 |
+| Entropy              | 1.4377    |
+| Perplexity           | 4.2112    |
+| AveragePolicyStd     | 1.019     |
+| AveragePolicyStd[0]  | 1.019     |
+| AverageReturn        | -841.28   |
+| MinReturn            | -1121.7   |
+| MaxReturn            | -501.39   |
+| StdReturn            | 141.79    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 736       |
+| TotalNSamples        | 1.472e+05 |
+| ExplainedVariance    | 0.65084   |
+------------------------------------
+[2018-12-22 09:54:42.049450 UTC] Saving snapshot
+[2018-12-22 09:54:42.056960 UTC] Starting iteration 15
+[2018-12-22 09:54:42.057135 UTC] Start collecting samples
+[2018-12-22 09:54:43.600310 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:43.692458 UTC] Performing policy update
+[2018-12-22 09:54:43.693305 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:43.760233 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:44.557970 UTC] Performing line search
+[2018-12-22 09:54:44.662296 UTC] Updating baseline
+[2018-12-22 09:54:45.563494 UTC] Computing logging information
+------------------------------------
+| Iteration            | 15        |
+| ExpectedImprovement  | 0.0062817 |
+| ActualImprovement    | 0.0057955 |
+| ImprovementRatio     | 0.92259   |
+| MeanKL               | 0.0066416 |
+| Entropy              | 1.4219    |
+| Perplexity           | 4.1452    |
+| AveragePolicyStd     | 1.003     |
+| AveragePolicyStd[0]  | 1.003     |
+| AverageReturn        | -804.41   |
+| MinReturn            | -1105.2   |
+| MaxReturn            | -494.69   |
+| StdReturn            | 132.58    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 800       |
+| TotalNSamples        | 1.6e+05   |
+| ExplainedVariance    | 0.7282    |
+------------------------------------
+[2018-12-22 09:54:45.645332 UTC] Saving snapshot
+[2018-12-22 09:54:45.652921 UTC] Starting iteration 16
+[2018-12-22 09:54:45.653112 UTC] Start collecting samples
+[2018-12-22 09:54:47.210437 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:47.301945 UTC] Performing policy update
+[2018-12-22 09:54:47.302687 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:47.369278 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:48.169619 UTC] Performing line search
+[2018-12-22 09:54:48.271763 UTC] Updating baseline
+[2018-12-22 09:54:49.156724 UTC] Computing logging information
+------------------------------------
+| Iteration            | 16        |
+| ExpectedImprovement  | 0.009652  |
+| ActualImprovement    | 0.0096305 |
+| ImprovementRatio     | 0.99777   |
+| MeanKL               | 0.0068712 |
+| Entropy              | 1.411     |
+| Perplexity           | 4.0999    |
+| AveragePolicyStd     | 0.99205   |
+| AveragePolicyStd[0]  | 0.99205   |
+| AverageReturn        | -798.99   |
+| MinReturn            | -1133     |
+| MaxReturn            | -494.69   |
+| StdReturn            | 126.23    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 848       |
+| TotalNSamples        | 1.696e+05 |
+| ExplainedVariance    | 0.82035   |
+------------------------------------
+[2018-12-22 09:54:49.240372 UTC] Saving snapshot
+[2018-12-22 09:54:49.247912 UTC] Starting iteration 17
+[2018-12-22 09:54:49.248088 UTC] Start collecting samples
+[2018-12-22 09:54:50.789276 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:50.881145 UTC] Performing policy update
+[2018-12-22 09:54:50.881979 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:50.948131 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:51.724753 UTC] Performing line search
+[2018-12-22 09:54:51.826506 UTC] Updating baseline
+[2018-12-22 09:54:52.843909 UTC] Computing logging information
+------------------------------------
+| Iteration            | 17        |
+| ExpectedImprovement  | 0.0094165 |
+| ActualImprovement    | 0.0095037 |
+| ImprovementRatio     | 1.0093    |
+| MeanKL               | 0.0068728 |
+| Entropy              | 1.3987    |
+| Perplexity           | 4.0499    |
+| AveragePolicyStd     | 0.97996   |
+| AveragePolicyStd[0]  | 0.97996   |
+| AverageReturn        | -758.81   |
+| MinReturn            | -1133     |
+| MaxReturn            | -387.06   |
+| StdReturn            | 131.58    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 896       |
+| TotalNSamples        | 1.792e+05 |
+| ExplainedVariance    | 0.78975   |
+------------------------------------
+[2018-12-22 09:54:52.925711 UTC] Saving snapshot
+[2018-12-22 09:54:52.932661 UTC] Starting iteration 18
+[2018-12-22 09:54:52.932859 UTC] Start collecting samples
+[2018-12-22 09:54:54.435760 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:54.527237 UTC] Performing policy update
+[2018-12-22 09:54:54.528163 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:54.596483 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:55.387867 UTC] Performing line search
+[2018-12-22 09:54:55.489303 UTC] Updating baseline
+[2018-12-22 09:54:56.515482 UTC] Computing logging information
+------------------------------------
+| Iteration            | 18        |
+| ExpectedImprovement  | 0.0079627 |
+| ActualImprovement    | 0.0079386 |
+| ImprovementRatio     | 0.99696   |
+| MeanKL               | 0.0069255 |
+| Entropy              | 1.3927    |
+| Perplexity           | 4.0258    |
+| AveragePolicyStd     | 0.97411   |
+| AveragePolicyStd[0]  | 0.97411   |
+| AverageReturn        | -693.6    |
+| MinReturn            | -1021.8   |
+| MaxReturn            | -379.8    |
+| StdReturn            | 129.72    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 944       |
+| TotalNSamples        | 1.888e+05 |
+| ExplainedVariance    | 0.79943   |
+------------------------------------
+[2018-12-22 09:54:56.599430 UTC] Saving snapshot
+[2018-12-22 09:54:56.606816 UTC] Starting iteration 19
+[2018-12-22 09:54:56.606991 UTC] Start collecting samples
+[2018-12-22 09:54:58.148266 UTC] Computing input variables for policy optimization
+[2018-12-22 09:54:58.238548 UTC] Performing policy update
+[2018-12-22 09:54:58.239309 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:54:58.305024 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:54:59.081435 UTC] Performing line search
+[2018-12-22 09:54:59.183592 UTC] Updating baseline
+[2018-12-22 09:55:00.071645 UTC] Computing logging information
+------------------------------------
+| Iteration            | 19        |
+| ExpectedImprovement  | 0.0092056 |
+| ActualImprovement    | 0.0091677 |
+| ImprovementRatio     | 0.99587   |
+| MeanKL               | 0.0068163 |
+| Entropy              | 1.3671    |
+| Perplexity           | 3.9239    |
+| AveragePolicyStd     | 0.94946   |
+| AveragePolicyStd[0]  | 0.94946   |
+| AverageReturn        | -642.93   |
+| MinReturn            | -900.43   |
+| MaxReturn            | -374.32   |
+| StdReturn            | 139.3     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 992       |
+| TotalNSamples        | 1.984e+05 |
+| ExplainedVariance    | 0.66309   |
+------------------------------------
+[2018-12-22 09:55:00.155068 UTC] Saving snapshot
+[2018-12-22 09:55:00.162675 UTC] Starting iteration 20
+[2018-12-22 09:55:00.162866 UTC] Start collecting samples
+[2018-12-22 09:55:01.672226 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:01.766484 UTC] Performing policy update
+[2018-12-22 09:55:01.767293 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:01.835998 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:02.620023 UTC] Performing line search
+[2018-12-22 09:55:02.723108 UTC] Updating baseline
+[2018-12-22 09:55:03.618245 UTC] Computing logging information
+------------------------------------
+| Iteration            | 20        |
+| ExpectedImprovement  | 0.0089077 |
+| ActualImprovement    | 0.0088766 |
+| ImprovementRatio     | 0.99651   |
+| MeanKL               | 0.0068132 |
+| Entropy              | 1.3523    |
+| Perplexity           | 3.8662    |
+| AveragePolicyStd     | 0.93551   |
+| AveragePolicyStd[0]  | 0.93551   |
+| AverageReturn        | -594.56   |
+| MinReturn            | -900.43   |
+| MaxReturn            | -370.52   |
+| StdReturn            | 134.32    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1040      |
+| TotalNSamples        | 2.08e+05  |
+| ExplainedVariance    | 0.6921    |
+------------------------------------
+[2018-12-22 09:55:03.703593 UTC] Saving snapshot
+[2018-12-22 09:55:03.711090 UTC] Starting iteration 21
+[2018-12-22 09:55:03.711275 UTC] Start collecting samples
+[2018-12-22 09:55:05.250439 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:05.339866 UTC] Performing policy update
+[2018-12-22 09:55:05.340670 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:05.407208 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:06.176677 UTC] Performing line search
+[2018-12-22 09:55:06.276422 UTC] Updating baseline
+[2018-12-22 09:55:07.163972 UTC] Computing logging information
+------------------------------------
+| Iteration            | 21        |
+| ExpectedImprovement  | 0.010072  |
+| ActualImprovement    | 0.010111  |
+| ImprovementRatio     | 1.0038    |
+| MeanKL               | 0.0068855 |
+| Entropy              | 1.3428    |
+| Perplexity           | 3.8298    |
+| AveragePolicyStd     | 0.9267    |
+| AveragePolicyStd[0]  | 0.9267    |
+| AverageReturn        | -570.83   |
+| MinReturn            | -889.17   |
+| MaxReturn            | -252.83   |
+| StdReturn            | 133.89    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1088      |
+| TotalNSamples        | 2.176e+05 |
+| ExplainedVariance    | 0.69038   |
+------------------------------------
+[2018-12-22 09:55:07.248416 UTC] Saving snapshot
+[2018-12-22 09:55:07.255920 UTC] Starting iteration 22
+[2018-12-22 09:55:07.256100 UTC] Start collecting samples
+[2018-12-22 09:55:08.759026 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:08.853235 UTC] Performing policy update
+[2018-12-22 09:55:08.854127 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:08.919835 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:09.692273 UTC] Performing line search
+[2018-12-22 09:55:09.791595 UTC] Updating baseline
+[2018-12-22 09:55:10.692942 UTC] Computing logging information
+------------------------------------
+| Iteration            | 22        |
+| ExpectedImprovement  | 0.010727  |
+| ActualImprovement    | 0.010532  |
+| ImprovementRatio     | 0.98182   |
+| MeanKL               | 0.0066445 |
+| Entropy              | 1.3109    |
+| Perplexity           | 3.7097    |
+| AveragePolicyStd     | 0.89763   |
+| AveragePolicyStd[0]  | 0.89763   |
+| AverageReturn        | -526.73   |
+| MinReturn            | -844.17   |
+| MaxReturn            | -250.52   |
+| StdReturn            | 148.79    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1136      |
+| TotalNSamples        | 2.272e+05 |
+| ExplainedVariance    | 0.73924   |
+------------------------------------
+[2018-12-22 09:55:10.783124 UTC] Saving snapshot
+[2018-12-22 09:55:10.790582 UTC] Starting iteration 23
+[2018-12-22 09:55:10.790789 UTC] Start collecting samples
+[2018-12-22 09:55:12.337053 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:12.430842 UTC] Performing policy update
+[2018-12-22 09:55:12.431650 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:12.495735 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:13.265879 UTC] Performing line search
+[2018-12-22 09:55:13.363016 UTC] Updating baseline
+[2018-12-22 09:55:14.256218 UTC] Computing logging information
+------------------------------------
+| Iteration            | 23        |
+| ExpectedImprovement  | 0.013137  |
+| ActualImprovement    | 0.012928  |
+| ImprovementRatio     | 0.98409   |
+| MeanKL               | 0.0065103 |
+| Entropy              | 1.2907    |
+| Perplexity           | 3.6352    |
+| AveragePolicyStd     | 0.87962   |
+| AveragePolicyStd[0]  | 0.87962   |
+| AverageReturn        | -440.06   |
+| MinReturn            | -825.16   |
+| MaxReturn            | -126.77   |
+| StdReturn            | 160.93    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1200      |
+| TotalNSamples        | 2.4e+05   |
+| ExplainedVariance    | 0.78656   |
+------------------------------------
+[2018-12-22 09:55:14.344704 UTC] Saving snapshot
+[2018-12-22 09:55:14.352653 UTC] Starting iteration 24
+[2018-12-22 09:55:14.352863 UTC] Start collecting samples
+[2018-12-22 09:55:15.866439 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:15.958243 UTC] Performing policy update
+[2018-12-22 09:55:15.959220 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:16.023741 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:16.782760 UTC] Performing line search
+[2018-12-22 09:55:16.881479 UTC] Updating baseline
+[2018-12-22 09:55:17.798407 UTC] Computing logging information
+------------------------------------
+| Iteration            | 24        |
+| ExpectedImprovement  | 0.016535  |
+| ActualImprovement    | 0.015866  |
+| ImprovementRatio     | 0.95956   |
+| MeanKL               | 0.0068922 |
+| Entropy              | 1.2834    |
+| Perplexity           | 3.6089    |
+| AveragePolicyStd     | 0.87324   |
+| AveragePolicyStd[0]  | 0.87324   |
+| AverageReturn        | -373.54   |
+| MinReturn            | -825.16   |
+| MaxReturn            | -1.6943   |
+| StdReturn            | 170.95    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1248      |
+| TotalNSamples        | 2.496e+05 |
+| ExplainedVariance    | 0.83091   |
+------------------------------------
+[2018-12-22 09:55:17.884911 UTC] Saving snapshot
+[2018-12-22 09:55:17.892549 UTC] Starting iteration 25
+[2018-12-22 09:55:17.892758 UTC] Start collecting samples
+[2018-12-22 09:55:19.420156 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:19.509835 UTC] Performing policy update
+[2018-12-22 09:55:19.510576 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:19.575537 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:20.323953 UTC] Performing line search
+[2018-12-22 09:55:20.373004 UTC] Updating baseline
+[2018-12-22 09:55:21.382787 UTC] Computing logging information
+------------------------------------
+| Iteration            | 25        |
+| ExpectedImprovement  | 0.022113  |
+| ActualImprovement    | 0.019402  |
+| ImprovementRatio     | 0.87739   |
+| MeanKL               | 0.0087815 |
+| Entropy              | 1.2576    |
+| Perplexity           | 3.5169    |
+| AveragePolicyStd     | 0.85098   |
+| AveragePolicyStd[0]  | 0.85098   |
+| AverageReturn        | -322.15   |
+| MinReturn            | -723.7    |
+| MaxReturn            | -1.2614   |
+| StdReturn            | 174.59    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1296      |
+| TotalNSamples        | 2.592e+05 |
+| ExplainedVariance    | 0.81519   |
+------------------------------------
+[2018-12-22 09:55:21.468801 UTC] Saving snapshot
+[2018-12-22 09:55:21.476156 UTC] Starting iteration 26
+[2018-12-22 09:55:21.476341 UTC] Start collecting samples
+[2018-12-22 09:55:23.030321 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:23.121703 UTC] Performing policy update
+[2018-12-22 09:55:23.122448 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:23.185287 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:23.930139 UTC] Performing line search
+[2018-12-22 09:55:24.024775 UTC] Updating baseline
+[2018-12-22 09:55:25.030539 UTC] Computing logging information
+------------------------------------
+| Iteration            | 26        |
+| ExpectedImprovement  | 0.01565   |
+| ActualImprovement    | 0.015731  |
+| ImprovementRatio     | 1.0052    |
+| MeanKL               | 0.0065912 |
+| Entropy              | 1.2452    |
+| Perplexity           | 3.4738    |
+| AveragePolicyStd     | 0.84055   |
+| AveragePolicyStd[0]  | 0.84055   |
+| AverageReturn        | -265.42   |
+| MinReturn            | -638.78   |
+| MaxReturn            | -1.2614   |
+| StdReturn            | 156.86    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1344      |
+| TotalNSamples        | 2.688e+05 |
+| ExplainedVariance    | 0.9234    |
+------------------------------------
+[2018-12-22 09:55:25.116816 UTC] Saving snapshot
+[2018-12-22 09:55:25.124185 UTC] Starting iteration 27
+[2018-12-22 09:55:25.124365 UTC] Start collecting samples
+[2018-12-22 09:55:26.649828 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:26.742966 UTC] Performing policy update
+[2018-12-22 09:55:26.743740 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:26.809929 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:27.542757 UTC] Performing line search
+[2018-12-22 09:55:27.592542 UTC] Updating baseline
+[2018-12-22 09:55:28.473117 UTC] Computing logging information
+------------------------------------
+| Iteration            | 27        |
+| ExpectedImprovement  | 0.016507  |
+| ActualImprovement    | 0.016628  |
+| ImprovementRatio     | 1.0073    |
+| MeanKL               | 0.0087588 |
+| Entropy              | 1.2356    |
+| Perplexity           | 3.4406    |
+| AveragePolicyStd     | 0.83252   |
+| AveragePolicyStd[0]  | 0.83252   |
+| AverageReturn        | -214.01   |
+| MinReturn            | -563.35   |
+| MaxReturn            | -1.2614   |
+| StdReturn            | 137.09    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1392      |
+| TotalNSamples        | 2.784e+05 |
+| ExplainedVariance    | 0.90776   |
+------------------------------------
+[2018-12-22 09:55:28.562780 UTC] Saving snapshot
+[2018-12-22 09:55:28.570311 UTC] Starting iteration 28
+[2018-12-22 09:55:28.570498 UTC] Start collecting samples
+[2018-12-22 09:55:30.114892 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:30.205346 UTC] Performing policy update
+[2018-12-22 09:55:30.206407 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:30.271699 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:31.023935 UTC] Performing line search
+[2018-12-22 09:55:31.120343 UTC] Updating baseline
+[2018-12-22 09:55:31.975375 UTC] Computing logging information
+------------------------------------
+| Iteration            | 28        |
+| ExpectedImprovement  | 0.012075  |
+| ActualImprovement    | 0.011417  |
+| ImprovementRatio     | 0.94551   |
+| MeanKL               | 0.0070988 |
+| Entropy              | 1.2261    |
+| Perplexity           | 3.4078    |
+| AveragePolicyStd     | 0.82459   |
+| AveragePolicyStd[0]  | 0.82459   |
+| AverageReturn        | -205.1    |
+| MinReturn            | -494.24   |
+| MaxReturn            | -1.5063   |
+| StdReturn            | 122.22    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1440      |
+| TotalNSamples        | 2.88e+05  |
+| ExplainedVariance    | 0.9546    |
+------------------------------------
+[2018-12-22 09:55:32.064052 UTC] Saving snapshot
+[2018-12-22 09:55:32.071745 UTC] Starting iteration 29
+[2018-12-22 09:55:32.071936 UTC] Start collecting samples
+[2018-12-22 09:55:33.584348 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:33.674269 UTC] Performing policy update
+[2018-12-22 09:55:33.675027 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:33.737439 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:34.480854 UTC] Performing line search
+[2018-12-22 09:55:34.528241 UTC] Updating baseline
+[2018-12-22 09:55:35.466367 UTC] Computing logging information
+------------------------------------
+| Iteration            | 29        |
+| ExpectedImprovement  | 0.020325  |
+| ActualImprovement    | 0.01554   |
+| ImprovementRatio     | 0.7646    |
+| MeanKL               | 0.0095515 |
+| Entropy              | 1.2106    |
+| Perplexity           | 3.3554    |
+| AveragePolicyStd     | 0.81192   |
+| AveragePolicyStd[0]  | 0.81192   |
+| AverageReturn        | -190.4    |
+| MinReturn            | -432.69   |
+| MaxReturn            | -1.6027   |
+| StdReturn            | 108.96    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1488      |
+| TotalNSamples        | 2.976e+05 |
+| ExplainedVariance    | 0.77604   |
+------------------------------------
+[2018-12-22 09:55:35.554535 UTC] Saving snapshot
+[2018-12-22 09:55:35.562181 UTC] Starting iteration 30
+[2018-12-22 09:55:35.562362 UTC] Start collecting samples
+[2018-12-22 09:55:37.107914 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:37.199056 UTC] Performing policy update
+[2018-12-22 09:55:37.199807 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:37.260226 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:37.995924 UTC] Performing line search
+[2018-12-22 09:55:38.043129 UTC] Updating baseline
+[2018-12-22 09:55:38.920328 UTC] Computing logging information
+------------------------------------
+| Iteration            | 30        |
+| ExpectedImprovement  | 0.01144   |
+| ActualImprovement    | 0.0096074 |
+| ImprovementRatio     | 0.83979   |
+| MeanKL               | 0.0094508 |
+| Entropy              | 1.2056    |
+| Perplexity           | 3.3386    |
+| AveragePolicyStd     | 0.80784   |
+| AveragePolicyStd[0]  | 0.80784   |
+| AverageReturn        | -198.32   |
+| MinReturn            | -628.44   |
+| MaxReturn            | -1.6027   |
+| StdReturn            | 122.58    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1536      |
+| TotalNSamples        | 3.072e+05 |
+| ExplainedVariance    | 0.8782    |
+------------------------------------
+[2018-12-22 09:55:39.010414 UTC] Saving snapshot
+[2018-12-22 09:55:39.017887 UTC] Starting iteration 31
+[2018-12-22 09:55:39.018090 UTC] Start collecting samples
+[2018-12-22 09:55:40.553303 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:40.642861 UTC] Performing policy update
+[2018-12-22 09:55:40.643601 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:40.704547 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:41.445582 UTC] Performing line search
+[2018-12-22 09:55:41.493274 UTC] Updating baseline
+[2018-12-22 09:55:42.359242 UTC] Computing logging information
+-----------------------------------
+| Iteration            | 31       |
+| ExpectedImprovement  | 0.013097 |
+| ActualImprovement    | 0.012271 |
+| ImprovementRatio     | 0.93691  |
+| MeanKL               | 0.008741 |
+| Entropy              | 1.1968   |
+| Perplexity           | 3.3094   |
+| AveragePolicyStd     | 0.80078  |
+| AveragePolicyStd[0]  | 0.80078  |
+| AverageReturn        | -206.6   |
+| MinReturn            | -516.76  |
+| MaxReturn            | -1.4467  |
+| StdReturn            | 121.25   |
+| AverageEpisodeLength | 200      |
+| MinEpisodeLength     | 200      |
+| MaxEpisodeLength     | 200      |
+| StdEpisodeLength     | 0        |
+| TotalNEpisodes       | 1600     |
+| TotalNSamples        | 3.2e+05  |
+| ExplainedVariance    | 0.96222  |
+-----------------------------------
+[2018-12-22 09:55:42.450073 UTC] Saving snapshot
+[2018-12-22 09:55:42.457448 UTC] Starting iteration 32
+[2018-12-22 09:55:42.457648 UTC] Start collecting samples
+[2018-12-22 09:55:43.978283 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:44.068475 UTC] Performing policy update
+[2018-12-22 09:55:44.069381 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:44.131684 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:44.879951 UTC] Performing line search
+[2018-12-22 09:55:44.979225 UTC] Updating baseline
+[2018-12-22 09:55:45.833453 UTC] Computing logging information
+------------------------------------
+| Iteration            | 32        |
+| ExpectedImprovement  | 0.013409  |
+| ActualImprovement    | 0.012331  |
+| ImprovementRatio     | 0.9196    |
+| MeanKL               | 0.0064933 |
+| Entropy              | 1.1961    |
+| Perplexity           | 3.3073    |
+| AveragePolicyStd     | 0.80028   |
+| AveragePolicyStd[0]  | 0.80028   |
+| AverageReturn        | -187.37   |
+| MinReturn            | -480.21   |
+| MaxReturn            | -1.4467   |
+| StdReturn            | 108.93    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1648      |
+| TotalNSamples        | 3.296e+05 |
+| ExplainedVariance    | 0.96598   |
+------------------------------------
+[2018-12-22 09:55:45.927276 UTC] Saving snapshot
+[2018-12-22 09:55:45.935250 UTC] Starting iteration 33
+[2018-12-22 09:55:45.935437 UTC] Start collecting samples
+[2018-12-22 09:55:47.456010 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:47.545187 UTC] Performing policy update
+[2018-12-22 09:55:47.545997 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:47.610730 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:48.348796 UTC] Performing line search
+[2018-12-22 09:55:48.396462 UTC] Updating baseline
+[2018-12-22 09:55:49.345486 UTC] Computing logging information
+------------------------------------
+| Iteration            | 33        |
+| ExpectedImprovement  | 0.013654  |
+| ActualImprovement    | 0.011847  |
+| ImprovementRatio     | 0.86763   |
+| MeanKL               | 0.0084917 |
+| Entropy              | 1.1753    |
+| Perplexity           | 3.239     |
+| AveragePolicyStd     | 0.78375   |
+| AveragePolicyStd[0]  | 0.78375   |
+| AverageReturn        | -188.42   |
+| MinReturn            | -458.87   |
+| MaxReturn            | -1.5503   |
+| StdReturn            | 117.25    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1696      |
+| TotalNSamples        | 3.392e+05 |
+| ExplainedVariance    | 0.9648    |
+------------------------------------
+[2018-12-22 09:55:49.439442 UTC] Saving snapshot
+[2018-12-22 09:55:49.446909 UTC] Starting iteration 34
+[2018-12-22 09:55:49.447085 UTC] Start collecting samples
+[2018-12-22 09:55:50.934599 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:51.024540 UTC] Performing policy update
+[2018-12-22 09:55:51.025497 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:51.089775 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:51.818557 UTC] Performing line search
+[2018-12-22 09:55:51.913064 UTC] Updating baseline
+[2018-12-22 09:55:52.925012 UTC] Computing logging information
+------------------------------------
+| Iteration            | 34        |
+| ExpectedImprovement  | 0.016459  |
+| ActualImprovement    | 0.016018  |
+| ImprovementRatio     | 0.97324   |
+| MeanKL               | 0.0065889 |
+| Entropy              | 1.1734    |
+| Perplexity           | 3.2329    |
+| AveragePolicyStd     | 0.78227   |
+| AveragePolicyStd[0]  | 0.78227   |
+| AverageReturn        | -183.58   |
+| MinReturn            | -458.87   |
+| MaxReturn            | -1.5503   |
+| StdReturn            | 123.99    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1744      |
+| TotalNSamples        | 3.488e+05 |
+| ExplainedVariance    | 0.97768   |
+------------------------------------
+[2018-12-22 09:55:53.017280 UTC] Saving snapshot
+[2018-12-22 09:55:53.024786 UTC] Starting iteration 35
+[2018-12-22 09:55:53.024983 UTC] Start collecting samples
+[2018-12-22 09:55:54.570725 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:54.663232 UTC] Performing policy update
+[2018-12-22 09:55:54.664117 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:54.725240 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:55.469765 UTC] Performing line search
+[2018-12-22 09:55:55.565598 UTC] Updating baseline
+[2018-12-22 09:55:56.439562 UTC] Computing logging information
+------------------------------------
+| Iteration            | 35        |
+| ExpectedImprovement  | 0.014437  |
+| ActualImprovement    | 0.013794  |
+| ImprovementRatio     | 0.95541   |
+| MeanKL               | 0.0066259 |
+| Entropy              | 1.1719    |
+| Perplexity           | 3.2281    |
+| AveragePolicyStd     | 0.78111   |
+| AveragePolicyStd[0]  | 0.78111   |
+| AverageReturn        | -182.8    |
+| MinReturn            | -458.87   |
+| MaxReturn            | -1.6771   |
+| StdReturn            | 124.7     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1792      |
+| TotalNSamples        | 3.584e+05 |
+| ExplainedVariance    | 0.95101   |
+------------------------------------
+[2018-12-22 09:55:56.533134 UTC] Saving snapshot
+[2018-12-22 09:55:56.540504 UTC] Starting iteration 36
+[2018-12-22 09:55:56.540695 UTC] Start collecting samples
+[2018-12-22 09:55:58.042668 UTC] Computing input variables for policy optimization
+[2018-12-22 09:55:58.134564 UTC] Performing policy update
+[2018-12-22 09:55:58.135322 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:55:58.199047 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:55:58.936336 UTC] Performing line search
+[2018-12-22 09:55:58.985068 UTC] Updating baseline
+[2018-12-22 09:55:59.995384 UTC] Computing logging information
+------------------------------------
+| Iteration            | 36        |
+| ExpectedImprovement  | 0.015095  |
+| ActualImprovement    | 0.010938  |
+| ImprovementRatio     | 0.72465   |
+| MeanKL               | 0.0088874 |
+| Entropy              | 1.1574    |
+| Perplexity           | 3.1815    |
+| AveragePolicyStd     | 0.76983   |
+| AveragePolicyStd[0]  | 0.76983   |
+| AverageReturn        | -179.86   |
+| MinReturn            | -453.29   |
+| MaxReturn            | -1.6771   |
+| StdReturn            | 117.81    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1840      |
+| TotalNSamples        | 3.68e+05  |
+| ExplainedVariance    | 0.93655   |
+------------------------------------
+[2018-12-22 09:56:00.087766 UTC] Saving snapshot
+[2018-12-22 09:56:00.095093 UTC] Starting iteration 37
+[2018-12-22 09:56:00.095277 UTC] Start collecting samples
+[2018-12-22 09:56:01.642015 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:01.731740 UTC] Performing policy update
+[2018-12-22 09:56:01.732482 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:01.796787 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:02.545773 UTC] Performing line search
+[2018-12-22 09:56:02.594356 UTC] Updating baseline
+[2018-12-22 09:56:03.546464 UTC] Computing logging information
+------------------------------------
+| Iteration            | 37        |
+| ExpectedImprovement  | 0.01618   |
+| ActualImprovement    | 0.013616  |
+| ImprovementRatio     | 0.84153   |
+| MeanKL               | 0.0096851 |
+| Entropy              | 1.1445    |
+| Perplexity           | 3.1409    |
+| AveragePolicyStd     | 0.76001   |
+| AveragePolicyStd[0]  | 0.76001   |
+| AverageReturn        | -177.32   |
+| MinReturn            | -402.53   |
+| MaxReturn            | -1.7039   |
+| StdReturn            | 103.15    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1888      |
+| TotalNSamples        | 3.776e+05 |
+| ExplainedVariance    | 0.95795   |
+------------------------------------
+[2018-12-22 09:56:03.641880 UTC] Saving snapshot
+[2018-12-22 09:56:03.649192 UTC] Starting iteration 38
+[2018-12-22 09:56:03.649370 UTC] Start collecting samples
+[2018-12-22 09:56:05.242196 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:05.335637 UTC] Performing policy update
+[2018-12-22 09:56:05.336371 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:05.398328 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:06.131290 UTC] Performing line search
+[2018-12-22 09:56:06.178998 UTC] Updating baseline
+[2018-12-22 09:56:07.124882 UTC] Computing logging information
+------------------------------------
+| Iteration            | 38        |
+| ExpectedImprovement  | 0.013202  |
+| ActualImprovement    | 0.011114  |
+| ImprovementRatio     | 0.84187   |
+| MeanKL               | 0.0097336 |
+| Entropy              | 1.1429    |
+| Perplexity           | 3.1358    |
+| AveragePolicyStd     | 0.75878   |
+| AveragePolicyStd[0]  | 0.75878   |
+| AverageReturn        | -175.77   |
+| MinReturn            | -389.33   |
+| MaxReturn            | -1.7246   |
+| StdReturn            | 100.05    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 1936      |
+| TotalNSamples        | 3.872e+05 |
+| ExplainedVariance    | 0.94884   |
+------------------------------------
+[2018-12-22 09:56:07.221462 UTC] Saving snapshot
+[2018-12-22 09:56:07.228859 UTC] Starting iteration 39
+[2018-12-22 09:56:07.229057 UTC] Start collecting samples
+[2018-12-22 09:56:08.794270 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:08.889023 UTC] Performing policy update
+[2018-12-22 09:56:08.889781 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:08.957334 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:09.703224 UTC] Performing line search
+[2018-12-22 09:56:09.799363 UTC] Updating baseline
+[2018-12-22 09:56:10.689092 UTC] Computing logging information
+-----------------------------------
+| Iteration            | 39       |
+| ExpectedImprovement  | 0.013409 |
+| ActualImprovement    | 0.013668 |
+| ImprovementRatio     | 1.0193   |
+| MeanKL               | 0.007118 |
+| Entropy              | 1.1332   |
+| Perplexity           | 3.1056   |
+| AveragePolicyStd     | 0.75147  |
+| AveragePolicyStd[0]  | 0.75147  |
+| AverageReturn        | -155.22  |
+| MinReturn            | -502.83  |
+| MaxReturn            | -1.2367  |
+| StdReturn            | 101.45   |
+| AverageEpisodeLength | 200      |
+| MinEpisodeLength     | 200      |
+| MaxEpisodeLength     | 200      |
+| StdEpisodeLength     | 0        |
+| TotalNEpisodes       | 2000     |
+| TotalNSamples        | 4e+05    |
+| ExplainedVariance    | 0.96415  |
+-----------------------------------
+[2018-12-22 09:56:10.790093 UTC] Saving snapshot
+[2018-12-22 09:56:10.797828 UTC] Starting iteration 40
+[2018-12-22 09:56:10.798084 UTC] Start collecting samples
+[2018-12-22 09:56:12.356310 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:12.447146 UTC] Performing policy update
+[2018-12-22 09:56:12.447939 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:12.512340 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:13.264599 UTC] Performing line search
+[2018-12-22 09:56:13.312663 UTC] Updating baseline
+[2018-12-22 09:56:14.252028 UTC] Computing logging information
+------------------------------------
+| Iteration            | 40        |
+| ExpectedImprovement  | 0.0187    |
+| ActualImprovement    | 0.015398  |
+| ImprovementRatio     | 0.82338   |
+| MeanKL               | 0.0076609 |
+| Entropy              | 1.1265    |
+| Perplexity           | 3.0848    |
+| AveragePolicyStd     | 0.74644   |
+| AveragePolicyStd[0]  | 0.74644   |
+| AverageReturn        | -158.73   |
+| MinReturn            | -502.83   |
+| MaxReturn            | -1.4807   |
+| StdReturn            | 103.27    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2048      |
+| TotalNSamples        | 4.096e+05 |
+| ExplainedVariance    | 0.94677   |
+------------------------------------
+[2018-12-22 09:56:14.352199 UTC] Saving snapshot
+[2018-12-22 09:56:14.359925 UTC] Starting iteration 41
+[2018-12-22 09:56:14.360124 UTC] Start collecting samples
+[2018-12-22 09:56:16.778934 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:16.879488 UTC] Performing policy update
+[2018-12-22 09:56:16.880356 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:16.951157 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:17.743563 UTC] Performing line search
+[2018-12-22 09:56:17.794721 UTC] Updating baseline
+[2018-12-22 09:56:18.731779 UTC] Computing logging information
+------------------------------------
+| Iteration            | 41        |
+| ExpectedImprovement  | 0.012738  |
+| ActualImprovement    | 0.011822  |
+| ImprovementRatio     | 0.92812   |
+| MeanKL               | 0.0086865 |
+| Entropy              | 1.1257    |
+| Perplexity           | 3.0824    |
+| AveragePolicyStd     | 0.74584   |
+| AveragePolicyStd[0]  | 0.74584   |
+| AverageReturn        | -177.27   |
+| MinReturn            | -425.91   |
+| MaxReturn            | -1.7022   |
+| StdReturn            | 99.987    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2096      |
+| TotalNSamples        | 4.192e+05 |
+| ExplainedVariance    | 0.98277   |
+------------------------------------
+[2018-12-22 09:56:18.845545 UTC] Saving snapshot
+[2018-12-22 09:56:18.853363 UTC] Starting iteration 42
+[2018-12-22 09:56:18.853557 UTC] Start collecting samples
+[2018-12-22 09:56:20.576512 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:20.667346 UTC] Performing policy update
+[2018-12-22 09:56:20.668208 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:20.732326 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:21.484946 UTC] Performing line search
+[2018-12-22 09:56:21.531472 UTC] Updating baseline
+[2018-12-22 09:56:22.414981 UTC] Computing logging information
+------------------------------------
+| Iteration            | 42        |
+| ExpectedImprovement  | 0.021286  |
+| ActualImprovement    | 0.020166  |
+| ImprovementRatio     | 0.94739   |
+| MeanKL               | 0.0099682 |
+| Entropy              | 1.1255    |
+| Perplexity           | 3.0818    |
+| AveragePolicyStd     | 0.7457    |
+| AveragePolicyStd[0]  | 0.7457    |
+| AverageReturn        | -175.83   |
+| MinReturn            | -425.91   |
+| MaxReturn            | -1.7717   |
+| StdReturn            | 96.769    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2144      |
+| TotalNSamples        | 4.288e+05 |
+| ExplainedVariance    | 0.96763   |
+------------------------------------
+[2018-12-22 09:56:22.515955 UTC] Saving snapshot
+[2018-12-22 09:56:22.523359 UTC] Starting iteration 43
+[2018-12-22 09:56:22.523566 UTC] Start collecting samples
+[2018-12-22 09:56:24.077827 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:24.167219 UTC] Performing policy update
+[2018-12-22 09:56:24.167971 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:24.232330 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:24.967857 UTC] Performing line search
+[2018-12-22 09:56:25.062814 UTC] Updating baseline
+[2018-12-22 09:56:25.946371 UTC] Computing logging information
+------------------------------------
+| Iteration            | 43        |
+| ExpectedImprovement  | 0.012299  |
+| ActualImprovement    | 0.010829  |
+| ImprovementRatio     | 0.88049   |
+| MeanKL               | 0.0075219 |
+| Entropy              | 1.1177    |
+| Perplexity           | 3.0578    |
+| AveragePolicyStd     | 0.7399    |
+| AveragePolicyStd[0]  | 0.7399    |
+| AverageReturn        | -156.12   |
+| MinReturn            | -390.46   |
+| MaxReturn            | -1.3288   |
+| StdReturn            | 101.56    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2192      |
+| TotalNSamples        | 4.384e+05 |
+| ExplainedVariance    | 0.97233   |
+------------------------------------
+[2018-12-22 09:56:26.046136 UTC] Saving snapshot
+[2018-12-22 09:56:26.053235 UTC] Starting iteration 44
+[2018-12-22 09:56:26.053420 UTC] Start collecting samples
+[2018-12-22 09:56:27.610453 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:27.701820 UTC] Performing policy update
+[2018-12-22 09:56:27.702604 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:27.764176 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:28.494951 UTC] Performing line search
+[2018-12-22 09:56:28.543276 UTC] Updating baseline
+[2018-12-22 09:56:29.429660 UTC] Computing logging information
+------------------------------------
+| Iteration            | 44        |
+| ExpectedImprovement  | 0.018365  |
+| ActualImprovement    | 0.014723  |
+| ImprovementRatio     | 0.80167   |
+| MeanKL               | 0.0085318 |
+| Entropy              | 1.1058    |
+| Perplexity           | 3.0216    |
+| AveragePolicyStd     | 0.73114   |
+| AveragePolicyStd[0]  | 0.73114   |
+| AverageReturn        | -169.44   |
+| MinReturn            | -470.83   |
+| MaxReturn            | -1.3288   |
+| StdReturn            | 105.25    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2240      |
+| TotalNSamples        | 4.48e+05  |
+| ExplainedVariance    | 0.92759   |
+------------------------------------
+[2018-12-22 09:56:29.530160 UTC] Saving snapshot
+[2018-12-22 09:56:29.537286 UTC] Starting iteration 45
+[2018-12-22 09:56:29.537482 UTC] Start collecting samples
+[2018-12-22 09:56:31.072522 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:31.162259 UTC] Performing policy update
+[2018-12-22 09:56:31.163016 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:31.224735 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:31.955940 UTC] Performing line search
+[2018-12-22 09:56:32.003247 UTC] Updating baseline
+[2018-12-22 09:56:32.893417 UTC] Computing logging information
+------------------------------------
+| Iteration            | 45        |
+| ExpectedImprovement  | 0.023928  |
+| ActualImprovement    | 0.018492  |
+| ImprovementRatio     | 0.77279   |
+| MeanKL               | 0.0094483 |
+| Entropy              | 1.099     |
+| Perplexity           | 3.0011    |
+| AveragePolicyStd     | 0.72619   |
+| AveragePolicyStd[0]  | 0.72619   |
+| AverageReturn        | -181.16   |
+| MinReturn            | -470.83   |
+| MaxReturn            | -1.5308   |
+| StdReturn            | 92.562    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2288      |
+| TotalNSamples        | 4.576e+05 |
+| ExplainedVariance    | 0.91377   |
+------------------------------------
+[2018-12-22 09:56:32.997597 UTC] Saving snapshot
+[2018-12-22 09:56:33.004911 UTC] Starting iteration 46
+[2018-12-22 09:56:33.005100 UTC] Start collecting samples
+[2018-12-22 09:56:34.565071 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:34.657351 UTC] Performing policy update
+[2018-12-22 09:56:34.658242 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:34.723927 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:35.472846 UTC] Performing line search
+[2018-12-22 09:56:35.569230 UTC] Updating baseline
+[2018-12-22 09:56:36.451488 UTC] Computing logging information
+------------------------------------
+| Iteration            | 46        |
+| ExpectedImprovement  | 0.012363  |
+| ActualImprovement    | 0.011332  |
+| ImprovementRatio     | 0.91661   |
+| MeanKL               | 0.0072011 |
+| Entropy              | 1.0872    |
+| Perplexity           | 2.966     |
+| AveragePolicyStd     | 0.71767   |
+| AveragePolicyStd[0]  | 0.71767   |
+| AverageReturn        | -173.2    |
+| MinReturn            | -481.71   |
+| MaxReturn            | -1.5308   |
+| StdReturn            | 99.326    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2336      |
+| TotalNSamples        | 4.672e+05 |
+| ExplainedVariance    | 0.97353   |
+------------------------------------
+[2018-12-22 09:56:36.554774 UTC] Saving snapshot
+[2018-12-22 09:56:36.562008 UTC] Starting iteration 47
+[2018-12-22 09:56:36.562191 UTC] Start collecting samples
+[2018-12-22 09:56:38.146134 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:38.237457 UTC] Performing policy update
+[2018-12-22 09:56:38.238353 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:38.300862 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:39.042066 UTC] Performing line search
+[2018-12-22 09:56:39.136316 UTC] Updating baseline
+[2018-12-22 09:56:40.014781 UTC] Computing logging information
+------------------------------------
+| Iteration            | 47        |
+| ExpectedImprovement  | 0.015023  |
+| ActualImprovement    | 0.015497  |
+| ImprovementRatio     | 1.0316    |
+| MeanKL               | 0.0063764 |
+| Entropy              | 1.0642    |
+| Perplexity           | 2.8985    |
+| AveragePolicyStd     | 0.70135   |
+| AveragePolicyStd[0]  | 0.70135   |
+| AverageReturn        | -154.1    |
+| MinReturn            | -481.71   |
+| MaxReturn            | -1.5212   |
+| StdReturn            | 97.527    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2400      |
+| TotalNSamples        | 4.8e+05   |
+| ExplainedVariance    | 0.97349   |
+------------------------------------
+[2018-12-22 09:56:40.118513 UTC] Saving snapshot
+[2018-12-22 09:56:40.126017 UTC] Starting iteration 48
+[2018-12-22 09:56:40.126215 UTC] Start collecting samples
+[2018-12-22 09:56:41.693923 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:41.784102 UTC] Performing policy update
+[2018-12-22 09:56:41.784981 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:41.848181 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:42.593252 UTC] Performing line search
+[2018-12-22 09:56:42.688206 UTC] Updating baseline
+[2018-12-22 09:56:43.638692 UTC] Computing logging information
+------------------------------------
+| Iteration            | 48        |
+| ExpectedImprovement  | 0.018584  |
+| ActualImprovement    | 0.014313  |
+| ImprovementRatio     | 0.77017   |
+| MeanKL               | 0.0066902 |
+| Entropy              | 1.0556    |
+| Perplexity           | 2.8736    |
+| AveragePolicyStd     | 0.69532   |
+| AveragePolicyStd[0]  | 0.69532   |
+| AverageReturn        | -145.97   |
+| MinReturn            | -437.97   |
+| MaxReturn            | -1.5212   |
+| StdReturn            | 93.753    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2448      |
+| TotalNSamples        | 4.896e+05 |
+| ExplainedVariance    | 0.98929   |
+------------------------------------
+[2018-12-22 09:56:43.742508 UTC] Saving snapshot
+[2018-12-22 09:56:43.749871 UTC] Starting iteration 49
+[2018-12-22 09:56:43.750074 UTC] Start collecting samples
+[2018-12-22 09:56:45.323101 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:45.415519 UTC] Performing policy update
+[2018-12-22 09:56:45.416406 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:45.480828 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:46.226176 UTC] Performing line search
+[2018-12-22 09:56:46.323198 UTC] Updating baseline
+[2018-12-22 09:56:47.206200 UTC] Computing logging information
+------------------------------------
+| Iteration            | 49        |
+| ExpectedImprovement  | 0.011577  |
+| ActualImprovement    | 0.0092779 |
+| ImprovementRatio     | 0.80144   |
+| MeanKL               | 0.0070472 |
+| Entropy              | 1.0477    |
+| Perplexity           | 2.851     |
+| AveragePolicyStd     | 0.68986   |
+| AveragePolicyStd[0]  | 0.68986   |
+| AverageReturn        | -153.66   |
+| MinReturn            | -352.49   |
+| MaxReturn            | -1.5411   |
+| StdReturn            | 90.424    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2496      |
+| TotalNSamples        | 4.992e+05 |
+| ExplainedVariance    | 0.92732   |
+------------------------------------
+[2018-12-22 09:56:47.310646 UTC] Saving snapshot
+[2018-12-22 09:56:47.318167 UTC] Starting iteration 50
+[2018-12-22 09:56:47.318353 UTC] Start collecting samples
+[2018-12-22 09:56:48.882448 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:48.974374 UTC] Performing policy update
+[2018-12-22 09:56:48.975143 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:49.037530 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:49.778065 UTC] Performing line search
+[2018-12-22 09:56:49.874286 UTC] Updating baseline
+[2018-12-22 09:56:50.785662 UTC] Computing logging information
+------------------------------------
+| Iteration            | 50        |
+| ExpectedImprovement  | 0.0088717 |
+| ActualImprovement    | 0.0081833 |
+| ImprovementRatio     | 0.9224    |
+| MeanKL               | 0.0064489 |
+| Entropy              | 1.0106    |
+| Perplexity           | 2.7474    |
+| AveragePolicyStd     | 0.66478   |
+| AveragePolicyStd[0]  | 0.66478   |
+| AverageReturn        | -149.69   |
+| MinReturn            | -369.99   |
+| MaxReturn            | -1.4818   |
+| StdReturn            | 91.11     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2544      |
+| TotalNSamples        | 5.088e+05 |
+| ExplainedVariance    | 0.96932   |
+------------------------------------
+[2018-12-22 09:56:50.891872 UTC] Saving snapshot
+[2018-12-22 09:56:50.899189 UTC] Starting iteration 51
+[2018-12-22 09:56:50.899381 UTC] Start collecting samples
+[2018-12-22 09:56:52.484155 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:52.575771 UTC] Performing policy update
+[2018-12-22 09:56:52.576648 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:52.640178 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:53.391548 UTC] Performing line search
+[2018-12-22 09:56:53.487264 UTC] Updating baseline
+[2018-12-22 09:56:54.370599 UTC] Computing logging information
+------------------------------------
+| Iteration            | 51        |
+| ExpectedImprovement  | 0.018538  |
+| ActualImprovement    | 0.013135  |
+| ImprovementRatio     | 0.70853   |
+| MeanKL               | 0.0065744 |
+| Entropy              | 1.0171    |
+| Perplexity           | 2.7652    |
+| AveragePolicyStd     | 0.66909   |
+| AveragePolicyStd[0]  | 0.66909   |
+| AverageReturn        | -147.98   |
+| MinReturn            | -369.99   |
+| MaxReturn            | -1.2894   |
+| StdReturn            | 91.865    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2592      |
+| TotalNSamples        | 5.184e+05 |
+| ExplainedVariance    | 0.97463   |
+------------------------------------
+[2018-12-22 09:56:54.478327 UTC] Saving snapshot
+[2018-12-22 09:56:54.485677 UTC] Starting iteration 52
+[2018-12-22 09:56:54.485891 UTC] Start collecting samples
+[2018-12-22 09:56:56.069850 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:56.163325 UTC] Performing policy update
+[2018-12-22 09:56:56.164094 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:56.227126 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:56:56.968945 UTC] Performing line search
+[2018-12-22 09:56:57.064206 UTC] Updating baseline
+[2018-12-22 09:56:57.947151 UTC] Computing logging information
+------------------------------------
+| Iteration            | 52        |
+| ExpectedImprovement  | 0.013488  |
+| ActualImprovement    | 0.028811  |
+| ImprovementRatio     | 2.1361    |
+| MeanKL               | 0.0068885 |
+| Entropy              | 0.9959    |
+| Perplexity           | 2.7072    |
+| AveragePolicyStd     | 0.65505   |
+| AveragePolicyStd[0]  | 0.65505   |
+| AverageReturn        | -153.12   |
+| MinReturn            | -359.08   |
+| MaxReturn            | -1.2894   |
+| StdReturn            | 90.167    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2640      |
+| TotalNSamples        | 5.28e+05  |
+| ExplainedVariance    | 0.97141   |
+------------------------------------
+[2018-12-22 09:56:58.054740 UTC] Saving snapshot
+[2018-12-22 09:56:58.062225 UTC] Starting iteration 53
+[2018-12-22 09:56:58.062416 UTC] Start collecting samples
+[2018-12-22 09:56:59.661067 UTC] Computing input variables for policy optimization
+[2018-12-22 09:56:59.753104 UTC] Performing policy update
+[2018-12-22 09:56:59.753862 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:56:59.814560 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:00.561563 UTC] Performing line search
+[2018-12-22 09:57:00.657081 UTC] Updating baseline
+[2018-12-22 09:57:01.607962 UTC] Computing logging information
+------------------------------------
+| Iteration            | 53        |
+| ExpectedImprovement  | 0.01743   |
+| ActualImprovement    | 0.012707  |
+| ImprovementRatio     | 0.72905   |
+| MeanKL               | 0.0064803 |
+| Entropy              | 1.0012    |
+| Perplexity           | 2.7215    |
+| AveragePolicyStd     | 0.65851   |
+| AveragePolicyStd[0]  | 0.65851   |
+| AverageReturn        | -168.19   |
+| MinReturn            | -405.11   |
+| MaxReturn            | -1.6315   |
+| StdReturn            | 94.999    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2688      |
+| TotalNSamples        | 5.376e+05 |
+| ExplainedVariance    | 0.94412   |
+------------------------------------
+[2018-12-22 09:57:01.718603 UTC] Saving snapshot
+[2018-12-22 09:57:01.726022 UTC] Starting iteration 54
+[2018-12-22 09:57:01.726206 UTC] Start collecting samples
+[2018-12-22 09:57:03.303008 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:03.394442 UTC] Performing policy update
+[2018-12-22 09:57:03.395215 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:03.458411 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:04.210257 UTC] Performing line search
+[2018-12-22 09:57:04.257646 UTC] Updating baseline
+[2018-12-22 09:57:05.147396 UTC] Computing logging information
+------------------------------------
+| Iteration            | 54        |
+| ExpectedImprovement  | 0.020539  |
+| ActualImprovement    | 0.012325  |
+| ImprovementRatio     | 0.60006   |
+| MeanKL               | 0.0084087 |
+| Entropy              | 0.99676   |
+| Perplexity           | 2.7095    |
+| AveragePolicyStd     | 0.65562   |
+| AveragePolicyStd[0]  | 0.65562   |
+| AverageReturn        | -177.71   |
+| MinReturn            | -405.11   |
+| MaxReturn            | -1.1492   |
+| StdReturn            | 99.689    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2736      |
+| TotalNSamples        | 5.472e+05 |
+| ExplainedVariance    | 0.96158   |
+------------------------------------
+[2018-12-22 09:57:05.259649 UTC] Saving snapshot
+[2018-12-22 09:57:05.267152 UTC] Starting iteration 55
+[2018-12-22 09:57:05.267348 UTC] Start collecting samples
+[2018-12-22 09:57:06.874864 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:06.967796 UTC] Performing policy update
+[2018-12-22 09:57:06.968557 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:07.030762 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:07.763913 UTC] Performing line search
+[2018-12-22 09:57:07.811676 UTC] Updating baseline
+[2018-12-22 09:57:08.697985 UTC] Computing logging information
+------------------------------------
+| Iteration            | 55        |
+| ExpectedImprovement  | 0.021254  |
+| ActualImprovement    | 0.018755  |
+| ImprovementRatio     | 0.88241   |
+| MeanKL               | 0.0093831 |
+| Entropy              | 0.98223   |
+| Perplexity           | 2.6704    |
+| AveragePolicyStd     | 0.64616   |
+| AveragePolicyStd[0]  | 0.64616   |
+| AverageReturn        | -165.89   |
+| MinReturn            | -387.62   |
+| MaxReturn            | -1.1492   |
+| StdReturn            | 86.913    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2800      |
+| TotalNSamples        | 5.6e+05   |
+| ExplainedVariance    | 0.98371   |
+------------------------------------
+[2018-12-22 09:57:08.812995 UTC] Saving snapshot
+[2018-12-22 09:57:08.820456 UTC] Starting iteration 56
+[2018-12-22 09:57:08.820669 UTC] Start collecting samples
+[2018-12-22 09:57:10.412210 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:10.504833 UTC] Performing policy update
+[2018-12-22 09:57:10.505589 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:10.569031 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:11.321258 UTC] Performing line search
+[2018-12-22 09:57:11.416753 UTC] Updating baseline
+[2018-12-22 09:57:12.331125 UTC] Computing logging information
+------------------------------------
+| Iteration            | 56        |
+| ExpectedImprovement  | 0.012335  |
+| ActualImprovement    | 0.011328  |
+| ImprovementRatio     | 0.91834   |
+| MeanKL               | 0.0070618 |
+| Entropy              | 0.98617   |
+| Perplexity           | 2.681     |
+| AveragePolicyStd     | 0.64871   |
+| AveragePolicyStd[0]  | 0.64871   |
+| AverageReturn        | -157.48   |
+| MinReturn            | -383.8    |
+| MaxReturn            | -1.4545   |
+| StdReturn            | 79.406    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2848      |
+| TotalNSamples        | 5.696e+05 |
+| ExplainedVariance    | 0.99266   |
+------------------------------------
+[2018-12-22 09:57:12.442710 UTC] Saving snapshot
+[2018-12-22 09:57:12.450331 UTC] Starting iteration 57
+[2018-12-22 09:57:12.450553 UTC] Start collecting samples
+[2018-12-22 09:57:14.040256 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:14.133224 UTC] Performing policy update
+[2018-12-22 09:57:14.134040 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:14.198169 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:14.938861 UTC] Performing line search
+[2018-12-22 09:57:15.033400 UTC] Updating baseline
+[2018-12-22 09:57:15.927171 UTC] Computing logging information
+------------------------------------
+| Iteration            | 57        |
+| ExpectedImprovement  | 0.017673  |
+| ActualImprovement    | 0.010444  |
+| ImprovementRatio     | 0.59094   |
+| MeanKL               | 0.0065397 |
+| Entropy              | 0.9883    |
+| Perplexity           | 2.6867    |
+| AveragePolicyStd     | 0.6501    |
+| AveragePolicyStd[0]  | 0.6501    |
+| AverageReturn        | -156.45   |
+| MinReturn            | -395.39   |
+| MaxReturn            | -1.5364   |
+| StdReturn            | 82.618    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2896      |
+| TotalNSamples        | 5.792e+05 |
+| ExplainedVariance    | 0.96637   |
+------------------------------------
+[2018-12-22 09:57:16.041718 UTC] Saving snapshot
+[2018-12-22 09:57:16.049168 UTC] Starting iteration 58
+[2018-12-22 09:57:16.049350 UTC] Start collecting samples
+[2018-12-22 09:57:17.597650 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:17.688482 UTC] Performing policy update
+[2018-12-22 09:57:17.689242 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:17.752121 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:18.500702 UTC] Performing line search
+[2018-12-22 09:57:18.595120 UTC] Updating baseline
+[2018-12-22 09:57:19.543169 UTC] Computing logging information
+------------------------------------
+| Iteration            | 58        |
+| ExpectedImprovement  | 0.017748  |
+| ActualImprovement    | 0.01723   |
+| ImprovementRatio     | 0.97077   |
+| MeanKL               | 0.0067409 |
+| Entropy              | 0.97767   |
+| Perplexity           | 2.6583    |
+| AveragePolicyStd     | 0.64322   |
+| AveragePolicyStd[0]  | 0.64322   |
+| AverageReturn        | -164.86   |
+| MinReturn            | -395.39   |
+| MaxReturn            | -1.5364   |
+| StdReturn            | 99.275    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2944      |
+| TotalNSamples        | 5.888e+05 |
+| ExplainedVariance    | 0.98424   |
+------------------------------------
+[2018-12-22 09:57:19.654721 UTC] Saving snapshot
+[2018-12-22 09:57:19.662130 UTC] Starting iteration 59
+[2018-12-22 09:57:19.662308 UTC] Start collecting samples
+[2018-12-22 09:57:21.246093 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:21.336345 UTC] Performing policy update
+[2018-12-22 09:57:21.337101 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:21.402016 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:22.142396 UTC] Performing line search
+[2018-12-22 09:57:22.189290 UTC] Updating baseline
+[2018-12-22 09:57:23.076282 UTC] Computing logging information
+------------------------------------
+| Iteration            | 59        |
+| ExpectedImprovement  | 0.024544  |
+| ActualImprovement    | 0.026873  |
+| ImprovementRatio     | 1.0949    |
+| MeanKL               | 0.0094855 |
+| Entropy              | 0.96743   |
+| Perplexity           | 2.6312    |
+| AveragePolicyStd     | 0.63666   |
+| AveragePolicyStd[0]  | 0.63666   |
+| AverageReturn        | -152.88   |
+| MinReturn            | -388.47   |
+| MaxReturn            | -1.4743   |
+| StdReturn            | 95.223    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 2992      |
+| TotalNSamples        | 5.984e+05 |
+| ExplainedVariance    | 0.98867   |
+------------------------------------
+[2018-12-22 09:57:23.188653 UTC] Saving snapshot
+[2018-12-22 09:57:23.196220 UTC] Starting iteration 60
+[2018-12-22 09:57:23.196415 UTC] Start collecting samples
+[2018-12-22 09:57:24.759269 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:24.848923 UTC] Performing policy update
+[2018-12-22 09:57:24.849664 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:24.911162 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:25.645523 UTC] Performing line search
+[2018-12-22 09:57:25.693041 UTC] Updating baseline
+[2018-12-22 09:57:26.572000 UTC] Computing logging information
+------------------------------------
+| Iteration            | 60        |
+| ExpectedImprovement  | 0.019268  |
+| ActualImprovement    | 0.02048   |
+| ImprovementRatio     | 1.0629    |
+| MeanKL               | 0.0097218 |
+| Entropy              | 0.9654    |
+| Perplexity           | 2.6258    |
+| AveragePolicyStd     | 0.63538   |
+| AveragePolicyStd[0]  | 0.63538   |
+| AverageReturn        | -146.82   |
+| MinReturn            | -401.52   |
+| MaxReturn            | -1.4743   |
+| StdReturn            | 88.854    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3040      |
+| TotalNSamples        | 6.08e+05  |
+| ExplainedVariance    | 0.97531   |
+------------------------------------
+[2018-12-22 09:57:26.684477 UTC] Saving snapshot
+[2018-12-22 09:57:26.691921 UTC] Starting iteration 61
+[2018-12-22 09:57:26.692113 UTC] Start collecting samples
+[2018-12-22 09:57:28.273868 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:28.363212 UTC] Performing policy update
+[2018-12-22 09:57:28.363997 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:28.426130 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:29.168939 UTC] Performing line search
+[2018-12-22 09:57:29.216460 UTC] Updating baseline
+[2018-12-22 09:57:30.097661 UTC] Computing logging information
+------------------------------------
+| Iteration            | 61        |
+| ExpectedImprovement  | 0.014489  |
+| ActualImprovement    | 0.015516  |
+| ImprovementRatio     | 1.0709    |
+| MeanKL               | 0.0093967 |
+| Entropy              | 0.95567   |
+| Perplexity           | 2.6004    |
+| AveragePolicyStd     | 0.62922   |
+| AveragePolicyStd[0]  | 0.62922   |
+| AverageReturn        | -160.82   |
+| MinReturn            | -401.52   |
+| MaxReturn            | -1.4743   |
+| StdReturn            | 98.173    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3088      |
+| TotalNSamples        | 6.176e+05 |
+| ExplainedVariance    | 0.98545   |
+------------------------------------
+[2018-12-22 09:57:30.211154 UTC] Saving snapshot
+[2018-12-22 09:57:30.218315 UTC] Starting iteration 62
+[2018-12-22 09:57:30.218528 UTC] Start collecting samples
+[2018-12-22 09:57:31.788987 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:31.881497 UTC] Performing policy update
+[2018-12-22 09:57:31.882293 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:31.949678 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:32.688599 UTC] Performing line search
+[2018-12-22 09:57:32.786944 UTC] Updating baseline
+[2018-12-22 09:57:33.729230 UTC] Computing logging information
+------------------------------------
+| Iteration            | 62        |
+| ExpectedImprovement  | 0.014121  |
+| ActualImprovement    | 0.014463  |
+| ImprovementRatio     | 1.0242    |
+| MeanKL               | 0.0065942 |
+| Entropy              | 0.97729   |
+| Perplexity           | 2.6573    |
+| AveragePolicyStd     | 0.64298   |
+| AveragePolicyStd[0]  | 0.64298   |
+| AverageReturn        | -155.74   |
+| MinReturn            | -381.69   |
+| MaxReturn            | -1.5045   |
+| StdReturn            | 94.398    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3136      |
+| TotalNSamples        | 6.272e+05 |
+| ExplainedVariance    | 0.98728   |
+------------------------------------
+[2018-12-22 09:57:33.845208 UTC] Saving snapshot
+[2018-12-22 09:57:33.852338 UTC] Starting iteration 63
+[2018-12-22 09:57:33.852528 UTC] Start collecting samples
+[2018-12-22 09:57:35.467379 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:35.558950 UTC] Performing policy update
+[2018-12-22 09:57:35.559829 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:35.622197 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:36.363192 UTC] Performing line search
+[2018-12-22 09:57:36.410766 UTC] Updating baseline
+[2018-12-22 09:57:37.293568 UTC] Computing logging information
+------------------------------------
+| Iteration            | 63        |
+| ExpectedImprovement  | 0.016811  |
+| ActualImprovement    | 0.013897  |
+| ImprovementRatio     | 0.82667   |
+| MeanKL               | 0.0096041 |
+| Entropy              | 0.96658   |
+| Perplexity           | 2.6289    |
+| AveragePolicyStd     | 0.63613   |
+| AveragePolicyStd[0]  | 0.63613   |
+| AverageReturn        | -123.29   |
+| MinReturn            | -375.26   |
+| MaxReturn            | -1.3172   |
+| StdReturn            | 83.5      |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3200      |
+| TotalNSamples        | 6.4e+05   |
+| ExplainedVariance    | 0.98544   |
+------------------------------------
+[2018-12-22 09:57:37.409614 UTC] Saving snapshot
+[2018-12-22 09:57:37.416778 UTC] Starting iteration 64
+[2018-12-22 09:57:37.416959 UTC] Start collecting samples
+[2018-12-22 09:57:38.977939 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:39.067252 UTC] Performing policy update
+[2018-12-22 09:57:39.068106 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:39.129637 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:39.867252 UTC] Performing line search
+[2018-12-22 09:57:39.914871 UTC] Updating baseline
+[2018-12-22 09:57:40.797849 UTC] Computing logging information
+------------------------------------
+| Iteration            | 64        |
+| ExpectedImprovement  | 0.024119  |
+| ActualImprovement    | 0.020372  |
+| ImprovementRatio     | 0.84463   |
+| MeanKL               | 0.0098916 |
+| Entropy              | 0.96412   |
+| Perplexity           | 2.6225    |
+| AveragePolicyStd     | 0.63456   |
+| AveragePolicyStd[0]  | 0.63456   |
+| AverageReturn        | -146.06   |
+| MinReturn            | -343.53   |
+| MaxReturn            | -1.3647   |
+| StdReturn            | 83.605    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3248      |
+| TotalNSamples        | 6.496e+05 |
+| ExplainedVariance    | 0.98562   |
+------------------------------------
+[2018-12-22 09:57:40.914569 UTC] Saving snapshot
+[2018-12-22 09:57:40.925164 UTC] Starting iteration 65
+[2018-12-22 09:57:40.925359 UTC] Start collecting samples
+[2018-12-22 09:57:42.510560 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:42.598856 UTC] Performing policy update
+[2018-12-22 09:57:42.599583 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:42.662840 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:43.404226 UTC] Performing line search
+[2018-12-22 09:57:43.497088 UTC] Updating baseline
+[2018-12-22 09:57:44.374915 UTC] Computing logging information
+------------------------------------
+| Iteration            | 65        |
+| ExpectedImprovement  | 0.013999  |
+| ActualImprovement    | 0.013406  |
+| ImprovementRatio     | 0.95758   |
+| MeanKL               | 0.0066295 |
+| Entropy              | 0.94517   |
+| Perplexity           | 2.5733    |
+| AveragePolicyStd     | 0.62265   |
+| AveragePolicyStd[0]  | 0.62265   |
+| AverageReturn        | -160.8    |
+| MinReturn            | -373.89   |
+| MaxReturn            | -1.4655   |
+| StdReturn            | 86.67     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3296      |
+| TotalNSamples        | 6.592e+05 |
+| ExplainedVariance    | 0.99157   |
+------------------------------------
+[2018-12-22 09:57:44.493084 UTC] Saving snapshot
+[2018-12-22 09:57:44.500215 UTC] Starting iteration 66
+[2018-12-22 09:57:44.500399 UTC] Start collecting samples
+[2018-12-22 09:57:46.069525 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:46.161952 UTC] Performing policy update
+[2018-12-22 09:57:46.162706 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:46.224691 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:46.964406 UTC] Performing line search
+[2018-12-22 09:57:47.058877 UTC] Updating baseline
+[2018-12-22 09:57:47.938512 UTC] Computing logging information
+------------------------------------
+| Iteration            | 66        |
+| ExpectedImprovement  | 0.0146    |
+| ActualImprovement    | 0.011422  |
+| ImprovementRatio     | 0.78235   |
+| MeanKL               | 0.0073111 |
+| Entropy              | 0.92959   |
+| Perplexity           | 2.5335    |
+| AveragePolicyStd     | 0.61302   |
+| AveragePolicyStd[0]  | 0.61302   |
+| AverageReturn        | -150.49   |
+| MinReturn            | -397.01   |
+| MaxReturn            | -1.4655   |
+| StdReturn            | 95.298    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3344      |
+| TotalNSamples        | 6.688e+05 |
+| ExplainedVariance    | 0.9642    |
+------------------------------------
+[2018-12-22 09:57:48.058099 UTC] Saving snapshot
+[2018-12-22 09:57:48.065371 UTC] Starting iteration 67
+[2018-12-22 09:57:48.065558 UTC] Start collecting samples
+[2018-12-22 09:57:49.628753 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:49.718754 UTC] Performing policy update
+[2018-12-22 09:57:49.719768 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:49.782212 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:50.516832 UTC] Performing line search
+[2018-12-22 09:57:50.565221 UTC] Updating baseline
+[2018-12-22 09:57:51.415697 UTC] Computing logging information
+------------------------------------
+| Iteration            | 67        |
+| ExpectedImprovement  | 0.01708   |
+| ActualImprovement    | 0.017408  |
+| ImprovementRatio     | 1.0192    |
+| MeanKL               | 0.0099024 |
+| Entropy              | 0.90249   |
+| Perplexity           | 2.4657    |
+| AveragePolicyStd     | 0.59663   |
+| AveragePolicyStd[0]  | 0.59663   |
+| AverageReturn        | -153.95   |
+| MinReturn            | -397.01   |
+| MaxReturn            | -1.3381   |
+| StdReturn            | 87.865    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3392      |
+| TotalNSamples        | 6.784e+05 |
+| ExplainedVariance    | 0.98169   |
+------------------------------------
+[2018-12-22 09:57:51.533407 UTC] Saving snapshot
+[2018-12-22 09:57:51.540571 UTC] Starting iteration 68
+[2018-12-22 09:57:51.540755 UTC] Start collecting samples
+[2018-12-22 09:57:53.092312 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:53.185382 UTC] Performing policy update
+[2018-12-22 09:57:53.186271 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:53.249289 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:53.982576 UTC] Performing line search
+[2018-12-22 09:57:54.076579 UTC] Updating baseline
+[2018-12-22 09:57:55.021336 UTC] Computing logging information
+------------------------------------
+| Iteration            | 68        |
+| ExpectedImprovement  | 0.012847  |
+| ActualImprovement    | 0.0082472 |
+| ImprovementRatio     | 0.64195   |
+| MeanKL               | 0.0066405 |
+| Entropy              | 0.89355   |
+| Perplexity           | 2.4438    |
+| AveragePolicyStd     | 0.59133   |
+| AveragePolicyStd[0]  | 0.59133   |
+| AverageReturn        | -159.53   |
+| MinReturn            | -415.77   |
+| MaxReturn            | -1.3381   |
+| StdReturn            | 93.63     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3440      |
+| TotalNSamples        | 6.88e+05  |
+| ExplainedVariance    | 0.99389   |
+------------------------------------
+[2018-12-22 09:57:55.141274 UTC] Saving snapshot
+[2018-12-22 09:57:55.148666 UTC] Starting iteration 69
+[2018-12-22 09:57:55.148864 UTC] Start collecting samples
+[2018-12-22 09:57:56.722144 UTC] Computing input variables for policy optimization
+[2018-12-22 09:57:56.816502 UTC] Performing policy update
+[2018-12-22 09:57:56.817249 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:57:56.879512 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:57:57.614842 UTC] Performing line search
+[2018-12-22 09:57:57.660750 UTC] Updating baseline
+[2018-12-22 09:57:58.539227 UTC] Computing logging information
+------------------------------------
+| Iteration            | 69        |
+| ExpectedImprovement  | 0.015241  |
+| ActualImprovement    | 0.019451  |
+| ImprovementRatio     | 1.2762    |
+| MeanKL               | 0.0095379 |
+| Entropy              | 0.87298   |
+| Perplexity           | 2.394     |
+| AveragePolicyStd     | 0.57929   |
+| AveragePolicyStd[0]  | 0.57929   |
+| AverageReturn        | -145.21   |
+| MinReturn            | -415.77   |
+| MaxReturn            | -1.3655   |
+| StdReturn            | 94.518    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3488      |
+| TotalNSamples        | 6.976e+05 |
+| ExplainedVariance    | 0.95993   |
+------------------------------------
+[2018-12-22 09:57:58.657806 UTC] Saving snapshot
+[2018-12-22 09:57:58.664957 UTC] Starting iteration 70
+[2018-12-22 09:57:58.665139 UTC] Start collecting samples
+[2018-12-22 09:58:00.258011 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:00.349530 UTC] Performing policy update
+[2018-12-22 09:58:00.350303 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:00.413811 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:01.156715 UTC] Performing line search
+[2018-12-22 09:58:01.204488 UTC] Updating baseline
+[2018-12-22 09:58:02.086641 UTC] Computing logging information
+------------------------------------
+| Iteration            | 70        |
+| ExpectedImprovement  | 0.026035  |
+| ActualImprovement    | 0.027721  |
+| ImprovementRatio     | 1.0648    |
+| MeanKL               | 0.0097426 |
+| Entropy              | 0.9066    |
+| Perplexity           | 2.4759    |
+| AveragePolicyStd     | 0.59909   |
+| AveragePolicyStd[0]  | 0.59909   |
+| AverageReturn        | -151.1    |
+| MinReturn            | -387.62   |
+| MaxReturn            | -1.5918   |
+| StdReturn            | 97.587    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3536      |
+| TotalNSamples        | 7.072e+05 |
+| ExplainedVariance    | 0.9922    |
+------------------------------------
+[2018-12-22 09:58:02.207454 UTC] Saving snapshot
+[2018-12-22 09:58:02.214603 UTC] Starting iteration 71
+[2018-12-22 09:58:02.214818 UTC] Start collecting samples
+[2018-12-22 09:58:03.814687 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:03.907087 UTC] Performing policy update
+[2018-12-22 09:58:03.907821 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:03.972438 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:04.709519 UTC] Performing line search
+[2018-12-22 09:58:04.806652 UTC] Updating baseline
+[2018-12-22 09:58:05.685839 UTC] Computing logging information
+------------------------------------
+| Iteration            | 71        |
+| ExpectedImprovement  | 0.014564  |
+| ActualImprovement    | 0.012381  |
+| ImprovementRatio     | 0.85014   |
+| MeanKL               | 0.0069783 |
+| Entropy              | 0.90004   |
+| Perplexity           | 2.4597    |
+| AveragePolicyStd     | 0.59517   |
+| AveragePolicyStd[0]  | 0.59517   |
+| AverageReturn        | -148.47   |
+| MinReturn            | -387.62   |
+| MaxReturn            | -1.5373   |
+| StdReturn            | 90.981    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3600      |
+| TotalNSamples        | 7.2e+05   |
+| ExplainedVariance    | 0.97641   |
+------------------------------------
+[2018-12-22 09:58:05.806027 UTC] Saving snapshot
+[2018-12-22 09:58:05.813296 UTC] Starting iteration 72
+[2018-12-22 09:58:05.813505 UTC] Start collecting samples
+[2018-12-22 09:58:07.389677 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:07.479503 UTC] Performing policy update
+[2018-12-22 09:58:07.480279 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:07.544030 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:08.285655 UTC] Performing line search
+[2018-12-22 09:58:08.333723 UTC] Updating baseline
+[2018-12-22 09:58:09.201916 UTC] Computing logging information
+------------------------------------
+| Iteration            | 72        |
+| ExpectedImprovement  | 0.01676   |
+| ActualImprovement    | 0.01524   |
+| ImprovementRatio     | 0.90932   |
+| MeanKL               | 0.0098488 |
+| Entropy              | 0.8939    |
+| Perplexity           | 2.4446    |
+| AveragePolicyStd     | 0.59153   |
+| AveragePolicyStd[0]  | 0.59153   |
+| AverageReturn        | -150.54   |
+| MinReturn            | -363.96   |
+| MaxReturn            | -1.4845   |
+| StdReturn            | 80.446    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3648      |
+| TotalNSamples        | 7.296e+05 |
+| ExplainedVariance    | 0.98788   |
+------------------------------------
+[2018-12-22 09:58:09.326590 UTC] Saving snapshot
+[2018-12-22 09:58:09.333693 UTC] Starting iteration 73
+[2018-12-22 09:58:09.333915 UTC] Start collecting samples
+[2018-12-22 09:58:10.911613 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:11.006126 UTC] Performing policy update
+[2018-12-22 09:58:11.007004 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:11.070550 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:11.799296 UTC] Performing line search
+[2018-12-22 09:58:11.845820 UTC] Updating baseline
+[2018-12-22 09:58:12.793577 UTC] Computing logging information
+------------------------------------
+| Iteration            | 73        |
+| ExpectedImprovement  | 0.017683  |
+| ActualImprovement    | 0.014562  |
+| ImprovementRatio     | 0.82353   |
+| MeanKL               | 0.0084849 |
+| Entropy              | 0.89342   |
+| Perplexity           | 2.4435    |
+| AveragePolicyStd     | 0.59125   |
+| AveragePolicyStd[0]  | 0.59125   |
+| AverageReturn        | -144.78   |
+| MinReturn            | -387.93   |
+| MaxReturn            | -1.3937   |
+| StdReturn            | 82.034    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3696      |
+| TotalNSamples        | 7.392e+05 |
+| ExplainedVariance    | 0.98805   |
+------------------------------------
+[2018-12-22 09:58:12.920992 UTC] Saving snapshot
+[2018-12-22 09:58:12.928227 UTC] Starting iteration 74
+[2018-12-22 09:58:12.928411 UTC] Start collecting samples
+[2018-12-22 09:58:14.517913 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:14.607935 UTC] Performing policy update
+[2018-12-22 09:58:14.608676 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:14.671078 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:15.407552 UTC] Performing line search
+[2018-12-22 09:58:15.501644 UTC] Updating baseline
+[2018-12-22 09:58:16.440817 UTC] Computing logging information
+------------------------------------
+| Iteration            | 74        |
+| ExpectedImprovement  | 0.0099852 |
+| ActualImprovement    | 0.007096  |
+| ImprovementRatio     | 0.71065   |
+| MeanKL               | 0.0066328 |
+| Entropy              | 0.91459   |
+| Perplexity           | 2.4957    |
+| AveragePolicyStd     | 0.6039    |
+| AveragePolicyStd[0]  | 0.6039    |
+| AverageReturn        | -139.98   |
+| MinReturn            | -387.93   |
+| MaxReturn            | -1.3937   |
+| StdReturn            | 91.332    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3744      |
+| TotalNSamples        | 7.488e+05 |
+| ExplainedVariance    | 0.97791   |
+------------------------------------
+[2018-12-22 09:58:16.564356 UTC] Saving snapshot
+[2018-12-22 09:58:16.571654 UTC] Starting iteration 75
+[2018-12-22 09:58:16.571836 UTC] Start collecting samples
+[2018-12-22 09:58:18.161792 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:18.251180 UTC] Performing policy update
+[2018-12-22 09:58:18.251938 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:18.313265 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:19.054577 UTC] Performing line search
+[2018-12-22 09:58:19.101905 UTC] Updating baseline
+[2018-12-22 09:58:19.966367 UTC] Computing logging information
+------------------------------------
+| Iteration            | 75        |
+| ExpectedImprovement  | 0.015637  |
+| ActualImprovement    | 0.01429   |
+| ImprovementRatio     | 0.91384   |
+| MeanKL               | 0.0094444 |
+| Entropy              | 0.89333   |
+| Perplexity           | 2.4433    |
+| AveragePolicyStd     | 0.5912    |
+| AveragePolicyStd[0]  | 0.5912    |
+| AverageReturn        | -147.27   |
+| MinReturn            | -403.6    |
+| MaxReturn            | -1.3937   |
+| StdReturn            | 95.911    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3792      |
+| TotalNSamples        | 7.584e+05 |
+| ExplainedVariance    | 0.98282   |
+------------------------------------
+[2018-12-22 09:58:20.090804 UTC] Saving snapshot
+[2018-12-22 09:58:20.097912 UTC] Starting iteration 76
+[2018-12-22 09:58:20.098099 UTC] Start collecting samples
+[2018-12-22 09:58:21.697222 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:21.788333 UTC] Performing policy update
+[2018-12-22 09:58:21.789083 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:21.851878 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:22.588221 UTC] Performing line search
+[2018-12-22 09:58:22.682973 UTC] Updating baseline
+[2018-12-22 09:58:23.571703 UTC] Computing logging information
+------------------------------------
+| Iteration            | 76        |
+| ExpectedImprovement  | 0.014098  |
+| ActualImprovement    | 0.014744  |
+| ImprovementRatio     | 1.0458    |
+| MeanKL               | 0.0071093 |
+| Entropy              | 0.89361   |
+| Perplexity           | 2.4439    |
+| AveragePolicyStd     | 0.59136   |
+| AveragePolicyStd[0]  | 0.59136   |
+| AverageReturn        | -151.68   |
+| MinReturn            | -403.6    |
+| MaxReturn            | -1.4669   |
+| StdReturn            | 88.574    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3840      |
+| TotalNSamples        | 7.68e+05  |
+| ExplainedVariance    | 0.99161   |
+------------------------------------
+[2018-12-22 09:58:23.698181 UTC] Saving snapshot
+[2018-12-22 09:58:23.705422 UTC] Starting iteration 77
+[2018-12-22 09:58:23.705608 UTC] Start collecting samples
+[2018-12-22 09:58:25.271777 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:25.364500 UTC] Performing policy update
+[2018-12-22 09:58:25.365299 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:25.426104 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:26.161061 UTC] Performing line search
+[2018-12-22 09:58:26.255454 UTC] Updating baseline
+[2018-12-22 09:58:27.138710 UTC] Computing logging information
+------------------------------------
+| Iteration            | 77        |
+| ExpectedImprovement  | 0.01467   |
+| ActualImprovement    | 0.019366  |
+| ImprovementRatio     | 1.3201    |
+| MeanKL               | 0.0064849 |
+| Entropy              | 0.8786    |
+| Perplexity           | 2.4075    |
+| AveragePolicyStd     | 0.58255   |
+| AveragePolicyStd[0]  | 0.58255   |
+| AverageReturn        | -149.09   |
+| MinReturn            | -342.25   |
+| MaxReturn            | -1.3543   |
+| StdReturn            | 78.092    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3888      |
+| TotalNSamples        | 7.776e+05 |
+| ExplainedVariance    | 0.99591   |
+------------------------------------
+[2018-12-22 09:58:27.263138 UTC] Saving snapshot
+[2018-12-22 09:58:27.270303 UTC] Starting iteration 78
+[2018-12-22 09:58:27.270494 UTC] Start collecting samples
+[2018-12-22 09:58:28.797420 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:28.886585 UTC] Performing policy update
+[2018-12-22 09:58:28.887415 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:28.953300 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:29.686424 UTC] Performing line search
+[2018-12-22 09:58:29.779681 UTC] Updating baseline
+[2018-12-22 09:58:30.736342 UTC] Computing logging information
+------------------------------------
+| Iteration            | 78        |
+| ExpectedImprovement  | 0.010793  |
+| ActualImprovement    | 0.0093979 |
+| ImprovementRatio     | 0.87078   |
+| MeanKL               | 0.0069622 |
+| Entropy              | 0.89249   |
+| Perplexity           | 2.4412    |
+| AveragePolicyStd     | 0.5907    |
+| AveragePolicyStd[0]  | 0.5907    |
+| AverageReturn        | -148.65   |
+| MinReturn            | -349.54   |
+| MaxReturn            | -1.3543   |
+| StdReturn            | 87.337    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 3936      |
+| TotalNSamples        | 7.872e+05 |
+| ExplainedVariance    | 0.98767   |
+------------------------------------
+[2018-12-22 09:58:30.866304 UTC] Saving snapshot
+[2018-12-22 09:58:30.873410 UTC] Starting iteration 79
+[2018-12-22 09:58:30.873585 UTC] Start collecting samples
+[2018-12-22 09:58:32.454652 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:32.545323 UTC] Performing policy update
+[2018-12-22 09:58:32.546190 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:32.609170 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:33.348916 UTC] Performing line search
+[2018-12-22 09:58:33.442941 UTC] Updating baseline
+[2018-12-22 09:58:34.327694 UTC] Computing logging information
+-----------------------------------
+| Iteration            | 79       |
+| ExpectedImprovement  | 0.015594 |
+| ActualImprovement    | 0.016781 |
+| ImprovementRatio     | 1.0761   |
+| MeanKL               | 0.006849 |
+| Entropy              | 0.85637  |
+| Perplexity           | 2.3546   |
+| AveragePolicyStd     | 0.56975  |
+| AveragePolicyStd[0]  | 0.56975  |
+| AverageReturn        | -145.07  |
+| MinReturn            | -370.29  |
+| MaxReturn            | -1.505   |
+| StdReturn            | 95.178   |
+| AverageEpisodeLength | 200      |
+| MinEpisodeLength     | 200      |
+| MaxEpisodeLength     | 200      |
+| StdEpisodeLength     | 0        |
+| TotalNEpisodes       | 4000     |
+| TotalNSamples        | 8e+05    |
+| ExplainedVariance    | 0.96541  |
+-----------------------------------
+[2018-12-22 09:58:34.456341 UTC] Saving snapshot
+[2018-12-22 09:58:34.463770 UTC] Starting iteration 80
+[2018-12-22 09:58:34.463974 UTC] Start collecting samples
+[2018-12-22 09:58:36.070242 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:36.160422 UTC] Performing policy update
+[2018-12-22 09:58:36.161206 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:36.227235 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:36.975022 UTC] Performing line search
+[2018-12-22 09:58:37.069862 UTC] Updating baseline
+[2018-12-22 09:58:37.959074 UTC] Computing logging information
+------------------------------------
+| Iteration            | 80        |
+| ExpectedImprovement  | 0.012211  |
+| ActualImprovement    | 0.0092795 |
+| ImprovementRatio     | 0.75992   |
+| MeanKL               | 0.0064855 |
+| Entropy              | 0.85845   |
+| Perplexity           | 2.3595    |
+| AveragePolicyStd     | 0.57093   |
+| AveragePolicyStd[0]  | 0.57093   |
+| AverageReturn        | -155.8    |
+| MinReturn            | -371.42   |
+| MaxReturn            | -1.6701   |
+| StdReturn            | 100.56    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4048      |
+| TotalNSamples        | 8.096e+05 |
+| ExplainedVariance    | 0.98613   |
+------------------------------------
+[2018-12-22 09:58:38.091008 UTC] Saving snapshot
+[2018-12-22 09:58:38.098410 UTC] Starting iteration 81
+[2018-12-22 09:58:38.098596 UTC] Start collecting samples
+[2018-12-22 09:58:39.693237 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:39.783947 UTC] Performing policy update
+[2018-12-22 09:58:39.784695 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:39.848144 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:40.586553 UTC] Performing line search
+[2018-12-22 09:58:40.683364 UTC] Updating baseline
+[2018-12-22 09:58:41.567979 UTC] Computing logging information
+------------------------------------
+| Iteration            | 81        |
+| ExpectedImprovement  | 0.020966  |
+| ActualImprovement    | 0.005601  |
+| ImprovementRatio     | 0.26714   |
+| MeanKL               | 0.0063469 |
+| Entropy              | 0.85405   |
+| Perplexity           | 2.3491    |
+| AveragePolicyStd     | 0.56842   |
+| AveragePolicyStd[0]  | 0.56842   |
+| AverageReturn        | -159.81   |
+| MinReturn            | -371.42   |
+| MaxReturn            | -1.5246   |
+| StdReturn            | 97.479    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4096      |
+| TotalNSamples        | 8.192e+05 |
+| ExplainedVariance    | 0.99223   |
+------------------------------------
+[2018-12-22 09:58:41.698949 UTC] Saving snapshot
+[2018-12-22 09:58:41.706260 UTC] Starting iteration 82
+[2018-12-22 09:58:41.706445 UTC] Start collecting samples
+[2018-12-22 09:58:43.315564 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:43.405504 UTC] Performing policy update
+[2018-12-22 09:58:43.406271 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:43.467142 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:44.195299 UTC] Performing line search
+[2018-12-22 09:58:44.288749 UTC] Updating baseline
+[2018-12-22 09:58:45.231891 UTC] Computing logging information
+------------------------------------
+| Iteration            | 82        |
+| ExpectedImprovement  | 0.019018  |
+| ActualImprovement    | 0.016199  |
+| ImprovementRatio     | 0.85174   |
+| MeanKL               | 0.0064138 |
+| Entropy              | 0.83918   |
+| Perplexity           | 2.3145    |
+| AveragePolicyStd     | 0.56003   |
+| AveragePolicyStd[0]  | 0.56003   |
+| AverageReturn        | -145.61   |
+| MinReturn            | -373.61   |
+| MaxReturn            | -1.5246   |
+| StdReturn            | 92.455    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4144      |
+| TotalNSamples        | 8.288e+05 |
+| ExplainedVariance    | 0.99196   |
+------------------------------------
+[2018-12-22 09:58:45.367007 UTC] Saving snapshot
+[2018-12-22 09:58:45.374246 UTC] Starting iteration 83
+[2018-12-22 09:58:45.374429 UTC] Start collecting samples
+[2018-12-22 09:58:46.994751 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:47.086309 UTC] Performing policy update
+[2018-12-22 09:58:47.087056 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:47.149095 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:47.890917 UTC] Performing line search
+[2018-12-22 09:58:47.986638 UTC] Updating baseline
+[2018-12-22 09:58:48.923969 UTC] Computing logging information
+------------------------------------
+| Iteration            | 83        |
+| ExpectedImprovement  | 0.012794  |
+| ActualImprovement    | 0.010577  |
+| ImprovementRatio     | 0.82669   |
+| MeanKL               | 0.0066355 |
+| Entropy              | 0.85236   |
+| Perplexity           | 2.3452    |
+| AveragePolicyStd     | 0.56747   |
+| AveragePolicyStd[0]  | 0.56747   |
+| AverageReturn        | -150.31   |
+| MinReturn            | -392.82   |
+| MaxReturn            | -1.3678   |
+| StdReturn            | 93.596    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4192      |
+| TotalNSamples        | 8.384e+05 |
+| ExplainedVariance    | 0.98251   |
+------------------------------------
+[2018-12-22 09:58:49.054757 UTC] Saving snapshot
+[2018-12-22 09:58:49.061857 UTC] Starting iteration 84
+[2018-12-22 09:58:49.062033 UTC] Start collecting samples
+[2018-12-22 09:58:50.674345 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:50.766305 UTC] Performing policy update
+[2018-12-22 09:58:50.767050 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:50.828428 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:51.567350 UTC] Performing line search
+[2018-12-22 09:58:51.663437 UTC] Updating baseline
+[2018-12-22 09:58:52.551568 UTC] Computing logging information
+------------------------------------
+| Iteration            | 84        |
+| ExpectedImprovement  | 0.017462  |
+| ActualImprovement    | 0.014347  |
+| ImprovementRatio     | 0.82163   |
+| MeanKL               | 0.0065181 |
+| Entropy              | 0.82252   |
+| Perplexity           | 2.2762    |
+| AveragePolicyStd     | 0.55078   |
+| AveragePolicyStd[0]  | 0.55078   |
+| AverageReturn        | -160.54   |
+| MinReturn            | -392.82   |
+| MaxReturn            | -1.3678   |
+| StdReturn            | 92.272    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4240      |
+| TotalNSamples        | 8.48e+05  |
+| ExplainedVariance    | 0.98411   |
+------------------------------------
+[2018-12-22 09:58:52.687186 UTC] Saving snapshot
+[2018-12-22 09:58:52.694383 UTC] Starting iteration 85
+[2018-12-22 09:58:52.694583 UTC] Start collecting samples
+[2018-12-22 09:58:54.269175 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:54.361225 UTC] Performing policy update
+[2018-12-22 09:58:54.362222 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:54.425168 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:55.170669 UTC] Performing line search
+[2018-12-22 09:58:55.264768 UTC] Updating baseline
+[2018-12-22 09:58:56.276728 UTC] Computing logging information
+------------------------------------
+| Iteration            | 85        |
+| ExpectedImprovement  | 0.012159  |
+| ActualImprovement    | 0.010587  |
+| ImprovementRatio     | 0.87071   |
+| MeanKL               | 0.0064559 |
+| Entropy              | 0.81696   |
+| Perplexity           | 2.2636    |
+| AveragePolicyStd     | 0.54773   |
+| AveragePolicyStd[0]  | 0.54773   |
+| AverageReturn        | -160.75   |
+| MinReturn            | -375.67   |
+| MaxReturn            | -1.6268   |
+| StdReturn            | 91.058    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4288      |
+| TotalNSamples        | 8.576e+05 |
+| ExplainedVariance    | 0.98784   |
+------------------------------------
+[2018-12-22 09:58:56.410695 UTC] Saving snapshot
+[2018-12-22 09:58:56.417920 UTC] Starting iteration 86
+[2018-12-22 09:58:56.418110 UTC] Start collecting samples
+[2018-12-22 09:58:58.004063 UTC] Computing input variables for policy optimization
+[2018-12-22 09:58:58.097297 UTC] Performing policy update
+[2018-12-22 09:58:58.098200 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:58:58.158686 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:58:58.893780 UTC] Performing line search
+[2018-12-22 09:58:58.943548 UTC] Updating baseline
+[2018-12-22 09:58:59.822074 UTC] Computing logging information
+------------------------------------
+| Iteration            | 86        |
+| ExpectedImprovement  | 0.033381  |
+| ActualImprovement    | 0.014824  |
+| ImprovementRatio     | 0.44409   |
+| MeanKL               | 0.0099616 |
+| Entropy              | 0.80174   |
+| Perplexity           | 2.2294    |
+| AveragePolicyStd     | 0.53945   |
+| AveragePolicyStd[0]  | 0.53945   |
+| AverageReturn        | -152.99   |
+| MinReturn            | -435.72   |
+| MaxReturn            | -1.5816   |
+| StdReturn            | 97.445    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4336      |
+| TotalNSamples        | 8.672e+05 |
+| ExplainedVariance    | 0.99383   |
+------------------------------------
+[2018-12-22 09:58:59.957808 UTC] Saving snapshot
+[2018-12-22 09:58:59.965099 UTC] Starting iteration 87
+[2018-12-22 09:58:59.965292 UTC] Start collecting samples
+[2018-12-22 09:59:01.606003 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:01.698704 UTC] Performing policy update
+[2018-12-22 09:59:01.699533 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:01.766349 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:02.505100 UTC] Performing line search
+[2018-12-22 09:59:02.599904 UTC] Updating baseline
+[2018-12-22 09:59:03.537519 UTC] Computing logging information
+------------------------------------
+| Iteration            | 87        |
+| ExpectedImprovement  | 0.015919  |
+| ActualImprovement    | 0.015576  |
+| ImprovementRatio     | 0.97846   |
+| MeanKL               | 0.0064358 |
+| Entropy              | 0.79487   |
+| Perplexity           | 2.2142    |
+| AveragePolicyStd     | 0.53576   |
+| AveragePolicyStd[0]  | 0.53576   |
+| AverageReturn        | -145.8    |
+| MinReturn            | -435.72   |
+| MaxReturn            | -1.4978   |
+| StdReturn            | 90.658    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4400      |
+| TotalNSamples        | 8.8e+05   |
+| ExplainedVariance    | 0.99026   |
+------------------------------------
+[2018-12-22 09:59:03.673491 UTC] Saving snapshot
+[2018-12-22 09:59:03.680781 UTC] Starting iteration 88
+[2018-12-22 09:59:03.680966 UTC] Start collecting samples
+[2018-12-22 09:59:05.294128 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:05.385552 UTC] Performing policy update
+[2018-12-22 09:59:05.386318 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:05.450568 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:06.190664 UTC] Performing line search
+[2018-12-22 09:59:06.285590 UTC] Updating baseline
+[2018-12-22 09:59:07.180551 UTC] Computing logging information
+------------------------------------
+| Iteration            | 88        |
+| ExpectedImprovement  | 0.012894  |
+| ActualImprovement    | 0.011982  |
+| ImprovementRatio     | 0.92931   |
+| MeanKL               | 0.0066118 |
+| Entropy              | 0.79586   |
+| Perplexity           | 2.2163    |
+| AveragePolicyStd     | 0.53629   |
+| AveragePolicyStd[0]  | 0.53629   |
+| AverageReturn        | -146      |
+| MinReturn            | -447.2    |
+| MaxReturn            | -1.4978   |
+| StdReturn            | 93.847    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4448      |
+| TotalNSamples        | 8.896e+05 |
+| ExplainedVariance    | 0.97058   |
+------------------------------------
+[2018-12-22 09:59:07.318405 UTC] Saving snapshot
+[2018-12-22 09:59:07.325595 UTC] Starting iteration 89
+[2018-12-22 09:59:07.325829 UTC] Start collecting samples
+[2018-12-22 09:59:08.919406 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:09.009361 UTC] Performing policy update
+[2018-12-22 09:59:09.010251 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:09.071918 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:09.811064 UTC] Performing line search
+[2018-12-22 09:59:09.904969 UTC] Updating baseline
+[2018-12-22 09:59:10.791592 UTC] Computing logging information
+------------------------------------
+| Iteration            | 89        |
+| ExpectedImprovement  | 0.01165   |
+| ActualImprovement    | 0.011298  |
+| ImprovementRatio     | 0.96983   |
+| MeanKL               | 0.0069519 |
+| Entropy              | 0.78089   |
+| Perplexity           | 2.1834    |
+| AveragePolicyStd     | 0.52832   |
+| AveragePolicyStd[0]  | 0.52832   |
+| AverageReturn        | -138.52   |
+| MinReturn            | -447.2    |
+| MaxReturn            | -1.4351   |
+| StdReturn            | 90.308    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4496      |
+| TotalNSamples        | 8.992e+05 |
+| ExplainedVariance    | 0.98931   |
+------------------------------------
+[2018-12-22 09:59:10.933126 UTC] Saving snapshot
+[2018-12-22 09:59:10.940352 UTC] Starting iteration 90
+[2018-12-22 09:59:10.940536 UTC] Start collecting samples
+[2018-12-22 09:59:12.510002 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:12.601951 UTC] Performing policy update
+[2018-12-22 09:59:12.603029 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:12.665607 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:13.417423 UTC] Performing line search
+[2018-12-22 09:59:13.464808 UTC] Updating baseline
+[2018-12-22 09:59:14.413506 UTC] Computing logging information
+------------------------------------
+| Iteration            | 90        |
+| ExpectedImprovement  | 0.018448  |
+| ActualImprovement    | 0.017617  |
+| ImprovementRatio     | 0.95496   |
+| MeanKL               | 0.0089035 |
+| Entropy              | 0.77866   |
+| Perplexity           | 2.1786    |
+| AveragePolicyStd     | 0.52715   |
+| AveragePolicyStd[0]  | 0.52715   |
+| AverageReturn        | -145.51   |
+| MinReturn            | -353.44   |
+| MaxReturn            | -1.3811   |
+| StdReturn            | 80.174    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4544      |
+| TotalNSamples        | 9.088e+05 |
+| ExplainedVariance    | 0.99306   |
+------------------------------------
+[2018-12-22 09:59:14.552215 UTC] Saving snapshot
+[2018-12-22 09:59:14.559599 UTC] Starting iteration 91
+[2018-12-22 09:59:14.559797 UTC] Start collecting samples
+[2018-12-22 09:59:16.176871 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:16.270846 UTC] Performing policy update
+[2018-12-22 09:59:16.271629 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:16.334933 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:17.073158 UTC] Performing line search
+[2018-12-22 09:59:17.119895 UTC] Updating baseline
+[2018-12-22 09:59:18.073706 UTC] Computing logging information
+------------------------------------
+| Iteration            | 91        |
+| ExpectedImprovement  | 0.013066  |
+| ActualImprovement    | 0.020341  |
+| ImprovementRatio     | 1.5568    |
+| MeanKL               | 0.0088664 |
+| Entropy              | 0.79281   |
+| Perplexity           | 2.2096    |
+| AveragePolicyStd     | 0.53466   |
+| AveragePolicyStd[0]  | 0.53466   |
+| AverageReturn        | -144.32   |
+| MinReturn            | -353.44   |
+| MaxReturn            | -1.3811   |
+| StdReturn            | 75.821    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4592      |
+| TotalNSamples        | 9.184e+05 |
+| ExplainedVariance    | 0.98407   |
+------------------------------------
+[2018-12-22 09:59:18.211685 UTC] Saving snapshot
+[2018-12-22 09:59:18.219109 UTC] Starting iteration 92
+[2018-12-22 09:59:18.219314 UTC] Start collecting samples
+[2018-12-22 09:59:19.765196 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:19.855015 UTC] Performing policy update
+[2018-12-22 09:59:19.855862 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:19.919481 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:20.669091 UTC] Performing line search
+[2018-12-22 09:59:20.767709 UTC] Updating baseline
+[2018-12-22 09:59:21.655819 UTC] Computing logging information
+------------------------------------
+| Iteration            | 92        |
+| ExpectedImprovement  | 0.014122  |
+| ActualImprovement    | 0.012958  |
+| ImprovementRatio     | 0.91757   |
+| MeanKL               | 0.0067853 |
+| Entropy              | 0.81055   |
+| Perplexity           | 2.2491    |
+| AveragePolicyStd     | 0.54423   |
+| AveragePolicyStd[0]  | 0.54423   |
+| AverageReturn        | -140.37   |
+| MinReturn            | -305.25   |
+| MaxReturn            | -1.4499   |
+| StdReturn            | 70.925    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4640      |
+| TotalNSamples        | 9.28e+05  |
+| ExplainedVariance    | 0.96002   |
+------------------------------------
+[2018-12-22 09:59:21.793020 UTC] Saving snapshot
+[2018-12-22 09:59:21.800298 UTC] Starting iteration 93
+[2018-12-22 09:59:21.800488 UTC] Start collecting samples
+[2018-12-22 09:59:23.413925 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:23.504147 UTC] Performing policy update
+[2018-12-22 09:59:23.504994 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:23.568903 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:24.307840 UTC] Performing line search
+[2018-12-22 09:59:24.401131 UTC] Updating baseline
+[2018-12-22 09:59:25.287412 UTC] Computing logging information
+------------------------------------
+| Iteration            | 93        |
+| ExpectedImprovement  | 0.014694  |
+| ActualImprovement    | 0.011062  |
+| ImprovementRatio     | 0.75283   |
+| MeanKL               | 0.0065687 |
+| Entropy              | 0.81016   |
+| Perplexity           | 2.2483    |
+| AveragePolicyStd     | 0.54402   |
+| AveragePolicyStd[0]  | 0.54402   |
+| AverageReturn        | -159.3    |
+| MinReturn            | -374.25   |
+| MaxReturn            | -1.4808   |
+| StdReturn            | 87.77     |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4688      |
+| TotalNSamples        | 9.376e+05 |
+| ExplainedVariance    | 0.99194   |
+------------------------------------
+[2018-12-22 09:59:25.427483 UTC] Saving snapshot
+[2018-12-22 09:59:25.435003 UTC] Starting iteration 94
+[2018-12-22 09:59:25.435195 UTC] Start collecting samples
+[2018-12-22 09:59:27.053249 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:27.148318 UTC] Performing policy update
+[2018-12-22 09:59:27.149177 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:27.213052 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:27.953703 UTC] Performing line search
+[2018-12-22 09:59:28.048429 UTC] Updating baseline
+[2018-12-22 09:59:28.929526 UTC] Computing logging information
+------------------------------------
+| Iteration            | 94        |
+| ExpectedImprovement  | 0.011201  |
+| ActualImprovement    | 0.0091975 |
+| ImprovementRatio     | 0.82115   |
+| MeanKL               | 0.0072868 |
+| Entropy              | 0.79723   |
+| Perplexity           | 2.2194    |
+| AveragePolicyStd     | 0.53703   |
+| AveragePolicyStd[0]  | 0.53703   |
+| AverageReturn        | -166.49   |
+| MinReturn            | -408.9    |
+| MaxReturn            | -1.3817   |
+| StdReturn            | 90.235    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4736      |
+| TotalNSamples        | 9.472e+05 |
+| ExplainedVariance    | 0.98261   |
+------------------------------------
+[2018-12-22 09:59:29.070821 UTC] Saving snapshot
+[2018-12-22 09:59:29.078092 UTC] Starting iteration 95
+[2018-12-22 09:59:29.078272 UTC] Start collecting samples
+[2018-12-22 09:59:30.724538 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:30.814801 UTC] Performing policy update
+[2018-12-22 09:59:30.815537 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:30.879477 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:31.619100 UTC] Performing line search
+[2018-12-22 09:59:31.667842 UTC] Updating baseline
+[2018-12-22 09:59:32.633454 UTC] Computing logging information
+-----------------------------------
+| Iteration            | 95       |
+| ExpectedImprovement  | 0.015639 |
+| ActualImprovement    | 0.012759 |
+| ImprovementRatio     | 0.81588  |
+| MeanKL               | 0.009824 |
+| Entropy              | 0.77477  |
+| Perplexity           | 2.1701   |
+| AveragePolicyStd     | 0.5251   |
+| AveragePolicyStd[0]  | 0.5251   |
+| AverageReturn        | -155.75  |
+| MinReturn            | -430.46  |
+| MaxReturn            | -1.3613  |
+| StdReturn            | 88.954   |
+| AverageEpisodeLength | 200      |
+| MinEpisodeLength     | 200      |
+| MaxEpisodeLength     | 200      |
+| StdEpisodeLength     | 0        |
+| TotalNEpisodes       | 4800     |
+| TotalNSamples        | 9.6e+05  |
+| ExplainedVariance    | 0.98095  |
+-----------------------------------
+[2018-12-22 09:59:32.789776 UTC] Saving snapshot
+[2018-12-22 09:59:32.797252 UTC] Starting iteration 96
+[2018-12-22 09:59:32.797453 UTC] Start collecting samples
+[2018-12-22 09:59:34.627852 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:34.724423 UTC] Performing policy update
+[2018-12-22 09:59:34.725245 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:34.795748 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:35.572752 UTC] Performing line search
+[2018-12-22 09:59:35.620942 UTC] Updating baseline
+[2018-12-22 09:59:36.538784 UTC] Computing logging information
+------------------------------------
+| Iteration            | 96        |
+| ExpectedImprovement  | 0.011727  |
+| ActualImprovement    | 0.010866  |
+| ImprovementRatio     | 0.92659   |
+| MeanKL               | 0.0090248 |
+| Entropy              | 0.78827   |
+| Perplexity           | 2.1996    |
+| AveragePolicyStd     | 0.53223   |
+| AveragePolicyStd[0]  | 0.53223   |
+| AverageReturn        | -157.47   |
+| MinReturn            | -430.46   |
+| MaxReturn            | -1.3613   |
+| StdReturn            | 80.946    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4848      |
+| TotalNSamples        | 9.696e+05 |
+| ExplainedVariance    | 0.98265   |
+------------------------------------
+[2018-12-22 09:59:36.689396 UTC] Saving snapshot
+[2018-12-22 09:59:36.697052 UTC] Starting iteration 97
+[2018-12-22 09:59:36.697246 UTC] Start collecting samples
+[2018-12-22 09:59:38.533356 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:38.629449 UTC] Performing policy update
+[2018-12-22 09:59:38.630320 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:38.694469 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:39.469397 UTC] Performing line search
+[2018-12-22 09:59:39.519553 UTC] Updating baseline
+[2018-12-22 09:59:40.436864 UTC] Computing logging information
+------------------------------------
+| Iteration            | 97        |
+| ExpectedImprovement  | 0.021914  |
+| ActualImprovement    | 0.02251   |
+| ImprovementRatio     | 1.0272    |
+| MeanKL               | 0.0094864 |
+| Entropy              | 0.79116   |
+| Perplexity           | 2.206     |
+| AveragePolicyStd     | 0.53378   |
+| AveragePolicyStd[0]  | 0.53378   |
+| AverageReturn        | -158.69   |
+| MinReturn            | -350.65   |
+| MaxReturn            | -1.5221   |
+| StdReturn            | 83.873    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4896      |
+| TotalNSamples        | 9.792e+05 |
+| ExplainedVariance    | 0.99358   |
+------------------------------------
+[2018-12-22 09:59:40.590461 UTC] Saving snapshot
+[2018-12-22 09:59:40.598652 UTC] Starting iteration 98
+[2018-12-22 09:59:40.598858 UTC] Start collecting samples
+[2018-12-22 09:59:42.328691 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:42.420112 UTC] Performing policy update
+[2018-12-22 09:59:42.420989 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:42.483701 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:43.229282 UTC] Performing line search
+[2018-12-22 09:59:43.276694 UTC] Updating baseline
+[2018-12-22 09:59:44.156776 UTC] Computing logging information
+------------------------------------
+| Iteration            | 98        |
+| ExpectedImprovement  | 0.02026   |
+| ActualImprovement    | 0.018987  |
+| ImprovementRatio     | 0.93716   |
+| MeanKL               | 0.0092508 |
+| Entropy              | 0.79875   |
+| Perplexity           | 2.2228    |
+| AveragePolicyStd     | 0.53784   |
+| AveragePolicyStd[0]  | 0.53784   |
+| AverageReturn        | -148.43   |
+| MinReturn            | -383.09   |
+| MaxReturn            | -1.2948   |
+| StdReturn            | 88.696    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4944      |
+| TotalNSamples        | 9.888e+05 |
+| ExplainedVariance    | 0.97955   |
+------------------------------------
+[2018-12-22 09:59:44.298527 UTC] Saving snapshot
+[2018-12-22 09:59:44.305639 UTC] Starting iteration 99
+[2018-12-22 09:59:44.305859 UTC] Start collecting samples
+[2018-12-22 09:59:45.887420 UTC] Computing input variables for policy optimization
+[2018-12-22 09:59:45.983151 UTC] Performing policy update
+[2018-12-22 09:59:45.984126 UTC] Computing gradient in Euclidean space
+[2018-12-22 09:59:46.047239 UTC] Computing approximate natural gradient using conjugate gradient algorithm
+[2018-12-22 09:59:46.781328 UTC] Performing line search
+[2018-12-22 09:59:46.874462 UTC] Updating baseline
+[2018-12-22 09:59:47.757100 UTC] Computing logging information
+------------------------------------
+| Iteration            | 99        |
+| ExpectedImprovement  | 0.01575   |
+| ActualImprovement    | 0.015931  |
+| ImprovementRatio     | 1.0115    |
+| MeanKL               | 0.0068113 |
+| Entropy              | 0.79983   |
+| Perplexity           | 2.2252    |
+| AveragePolicyStd     | 0.53843   |
+| AveragePolicyStd[0]  | 0.53843   |
+| AverageReturn        | -147.52   |
+| MinReturn            | -383.09   |
+| MaxReturn            | -1.2948   |
+| StdReturn            | 85.933    |
+| AverageEpisodeLength | 200       |
+| MinEpisodeLength     | 200       |
+| MaxEpisodeLength     | 200       |
+| StdEpisodeLength     | 0         |
+| TotalNEpisodes       | 4992      |
+| TotalNSamples        | 9.984e+05 |
+| ExplainedVariance    | 0.97412   |
+------------------------------------
+[2018-12-22 09:59:47.901458 UTC] Saving snapshot

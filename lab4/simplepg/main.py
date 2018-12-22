@@ -115,7 +115,7 @@ def cartpole_get_grad_logp_action(theta, ob, action):
     """
     grad = np.zeros_like(theta)
     log_soft = -softmax(compute_logits(theta, ob))
-    log_soft[action] = 1
+    log_soft[action] += 1
     grad = np.outer(log_soft, include_bias(ob))
     return grad
 
@@ -283,7 +283,10 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
             """
             baselines = np.zeros(len(all_returns))
             for t in range(len(all_returns)):
-                baselines[t] = np.mean(all_returns[t])
+                if len(all_returns[t]) == 0:
+                    baselines[t] = 0
+                else:
+                    baselines[t] = np.mean(all_returns[t])
             return baselines
 
         if use_baseline:
@@ -312,7 +315,7 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
                 d = len(theta.flatten())
                 F = np.zeros((d, d))
                 "*** YOUR CODE HERE ***"
-                for ob, action in zip(all_observations, all_actions)
+                for ob, action in zip(all_observations, all_actions):
                     logp_grad = get_grad_logp_action(theta, ob, action)
                     F += np.outer(logp_grad, logp_grad)
                 F /= len(all_observations)
@@ -328,8 +331,8 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
                 natural_grad = np.zeros_like(grad)
                 "*** YOUR CODE HERE ***"
                 flatten_grad = grad.flatten()
-                natural_grad = np.linalg.inv(F + reg * np.eye(F.shape[0])).flatten_grad
-                natural_grad.reshape(grad.shape)
+                natural_grad = np.linalg.inv(F + reg * np.eye(F.shape[0])).dot(flatten_grad)
+                natural_grad = natural_grad.reshape(grad.shape)
                 return natural_grad
 
             def compute_step_size(F, natural_grad, natural_step_size):
@@ -341,7 +344,9 @@ def main(env_id, batch_size, discount, learning_rate, n_itrs, render, use_baseli
                 """
                 step_size = 0.
                 "*** YOUR CODE HERE ***"
-                step_size = np.sqrt(2*natural_step_size/(natural_grad.dot(F).dot(natural_grad)))
+                flatten = natural_grad.flatten()
+
+                step_size = np.sqrt(2*natural_step_size/(flatten.dot(F).dot(flatten)))
                 return step_size
 
             test_once(compute_fisher_matrix)

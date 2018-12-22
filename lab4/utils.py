@@ -106,6 +106,7 @@ class Categorical(Distribution):
     def logli(self, a):
         all_logli = F.log_softmax(self.logits)
         N = len(a)
+        print(a.data.astype(np.int32, copy=False).shape)
         return all_logli[
             np.arange(N),
             a.data.astype(np.int32, copy=False)
